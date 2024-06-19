@@ -1,4 +1,4 @@
-# Library for Configurations
+# LibConfig => Library of Configurations
 
 Simple overview of use/purpose.
 
