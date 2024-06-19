@@ -19,24 +19,24 @@ horiz_bar: &horizontal_bar
   offset_x: 2px
   offset_y: 2px
   font_family: "FiraCode Nerd Font "
-  height: 25
+  height: 30
   border_radius: 6
   position: "top"
   background: "#303446"
   foreground: "#f4b8e4"
-  font_size: "10px"
+  font_size: "13px"
   border_color: "#f4b8e4"
   border_width: 1
   vertical: "v"
   horizontal: "b"
   components_left:
     - type: "text"
-      text: "<𝘴𝘺𝘯𝘵𝘢𝘹𝘣𝘰𝘺𝘣𝘦>"
+      text: " 󰢚 𝐒𝐘𝐍𝐓𝐀𝐗𝐁𝐎𝐘𝐁𝐄 "
       foreground: "#7ce48b"
     - type: "workspaces"
       focused_workspace_background: "#303446"
       focused_workspace_foreground: "#7ce48b"
-      displayed_workspace_background: "#df8e1d"
+      displayed_workspace_background: "#c6d0f5"
       default_workspace_background: "transparent"
       margin: "0px 10px 0px 0px"
     - type: "cpu"
@@ -86,7 +86,7 @@ horiz_bar: &horizontal_bar
       foreground: "#7ce48b"
       padding: "0 8px"
       font_family: "FiraCode Nerd Font"
-      label_no_internet: ""
+      label_no_internet: "󰤨"
       label_ethernet: "󰈁"
       label_wifi_strength_0: "󰤯"
       label_wifi_strength_25: "󰤟"
@@ -94,12 +94,12 @@ horiz_bar: &horizontal_bar
       label_wifi_strength_75: "󰤥"
       label_wifi_strength_100: "󰤨"
     - type: "volume"
-      label: "<attr fs='25' fg='#7ce38b'></attr>{volume_level}%"
+      label: "<attr fs='25' fg='#7ce38b'> </attr>{volume_level}%"
       padding: "0 8px"
-      label_low: "<attr fs='25' fg='#7ce38b'></attr>{volume_level}%"
-      label_medium: "<attr fs='25' fg='#7ce38b'></attr>{volume_level}%"
-      label_high: "<attr fs='25' fg='#7ce38b'></attr>{volume_level}%"
-      label_mute: "<attr fs='25' fg='#7ce38b'></attr>{volume_level}%"
+      label_low: "<attr fs='25' fg='#7ce38b'> </attr>{volume_level}%"
+      label_medium: "<attr fs='25' fg='#7ce38b'> </attr>{volume_level}%"
+      label_high: "<attr fs='25' fg='#7ce38b'> </attr>{volume_level}%"
+      label_mute: "<attr fs='25' fg='#7ce38b'> </attr>{volume_level}%"
     # - type: "battery"
     #   label_draining: "{battery_level}% remaining"
     #   label_power_saver: "{battery_level}%"
@@ -112,19 +112,19 @@ horiz_bar: &horizontal_bar
       margin: "0 4px"
       padding: "0 8px"
     - type: "binding mode"
-      background: "#df8e1d"
+      background: "#c6d0f5"
       margin: "0 4px 0 0"
       padding: "0 8px"
     - type: "clock"
       foreground: "#7ce38b"
-      time_formatting: "hh:mm:ss tt  ddd MMM d  "
+      time_formatting: "hh:mm:ss tt | ddd MMM d  "
       margin: "0 0 0 10px"
 
 vert_bar: &vertical_bar
   <<: *horizontal_bar
   components_left:
     - type: "text"
-      text: "<𝘴𝘺𝘯𝘵𝘢𝘹𝘣𝘰𝘺𝘣𝘦>"
+      text: " 󰢚 𝐒𝐘𝐍𝐓𝐀𝐗𝐁𝐎𝐘𝐁𝐄 "
       foreground: "#7ce48b"
     - type: "workspaces"
       focused_workspace_background: "#303446"
@@ -140,7 +140,7 @@ vert_bar: &vertical_bar
       margin: "0 4px"
       padding: "0 8px"
     - type: "binding mode"
-      background: "#df8e1d"
+      background: "#c6d0f5"
       margin: "0 4px 0 0"
       padding: "0 8px"
     - type: "clock"
@@ -169,7 +169,7 @@ workspaces:
 window_rules:
   # Launches system dialogs as floating by default (eg. File Explorer save/open dialog).
   - command: "set floating"
-    match_class_name: "#df8e1d"
+    match_class_name: "#c6d0f5"
 
   - command: "resize borders 0px -7px -7px -7px"
     match_process_name: "steam|vivaldi"
