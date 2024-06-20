@@ -11,6 +11,7 @@ Simple overview of use/purpose.
 ### Dependencies
 
 - Windows 10
+- Arch Linux(archcraft distro)
 
 ### Installing
 
@@ -23,10 +24,6 @@ Simple overview of use/purpose.
 ## Author
 
 - syntaxboybe
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
 
 ## Acknowledgments
 
