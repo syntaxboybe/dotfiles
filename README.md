@@ -1,4 +1,4 @@
-# LibConfig => Library of Configurations
+# LibConfig + wallpapers
 
 Simple overview of use/purpose.
 
