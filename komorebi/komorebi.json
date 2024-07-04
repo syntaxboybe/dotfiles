@@ -9,7 +9,7 @@
   "border_width": 3,
   "border_offset": -1,
   "border_colours": {
-    "single": "#42a5f5",
+    "single": "#8839ef",
     "stack": "#00a542",
     "monocle": "#ff3399",
     "unfocused": "#808080"
