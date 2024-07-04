@@ -1,10 +1,8 @@
 # LibConfig + wallpapers
 
-Simple overview of use/purpose.
-
 ## Description
 
-- Collection of Configurations in every software i used
+-These are my user-specific configuration files that I use to personalize my Windows experience.
 
 ## Getting Started
 
