@@ -31,7 +31,7 @@ set.winblend = 0
 --stylua: ignore
 set.fillchars = { fold = " ", foldopen = "", foldclose = "", foldsep = " ", diff = "╱", eob = " ",}
 --stylua: ignore
-set.listchars = { space = ".", eol = "↲", nbsp = "␣", trail = "·", precedes = "←", extends = "→", tab = "¬ ", conceal = "※", }
+--set.listchars = { space = ".", eol = "↲", nbsp = "␣", trail = "·", precedes = "←", extends = "→", tab = "¬ ", conceal = "※", }
 set.shortmess = {
   A = true, -- ignore annoying swap file messages
   c = true, -- Do not show completion messages in command line
