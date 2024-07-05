@@ -34,6 +34,7 @@ Inspiration, code snippets, etc.
 - [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
 - [neovim](https://neovim.io/)
 - [lazyvim](https://www.lazyvim.org)
+- [lazygit](https://github.com/jesseduffield/lazygit)
 - [komorebi](https://lgug2z.github.io/komorebi/)
 - [flowlauncher](https://www.flowlauncher.com/)
 - [glazeWM](https://github.com/glzr-io/glazewm)
