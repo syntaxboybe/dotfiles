@@ -2,7 +2,7 @@
 
 ## Description
 
--These are my user-specific configuration files that I use to personalize my Windows experience.
+-These are my user-specific configuration files and apps that I use to personalize my Windows experience.
 
 ## Getting Started
 
