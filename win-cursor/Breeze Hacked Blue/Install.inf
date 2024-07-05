@@ -1,0 +1,55 @@
+; Breeze Hacked Blue cursors
+; Right click on the file "install.inf" and select "Install". Then apply Breeze Hacked Blue cursors in Control Panel > Appearance and Personalization > Personalization > Change mouse pointers.
+
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+; -- Installed files
+
+[Scheme.Cur]
+busy.ani
+working_in_bg.ani
+normal_select.cur
+help_select.cur
+link_select.cur
+move.cur
+diagonal_resize2.cur
+Install.inf
+vertical_resize.cur
+horizontal_resize.cur
+diagonal_resize1.cur
+handwriting.cur
+precision_select.cur
+text_select.cur
+unavailable.cur
+alt_select.cur
+
+[Strings]
+CUR_DIR       = "Cursors\Breeze Hacked Blue"
+SCHEME_NAME   = "Breeze Hacked Blue"
+pointer       = "normal_select.cur"
+help          = "help_select.cur"
+work          = "working_in_bg.ani"
+busy          = "busy.ani"
+text          = "text_select.cur"
+unavailiable  = "unavailable.cur"
+vert          = "vertical_resize.cur"
+horz          = "horizontal_resize.cur"
+dgn1          = "diagonal_resize1.cur"
+dgn2          = "diagonal_resize2.cur"
+move          = "move.cur"
+link          = "link_select.cur"
+cross         = "precision_select.cur"
+hand          = "handwriting.cur"
+alternate     = "alt_select.cur"
