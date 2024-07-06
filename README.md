@@ -25,12 +25,13 @@
 
 ## Acknowledgments
 
-Inspiration, code snippets, etc.
+Resources and inspiration for this project:
 
 - [awesome-readme](https://github.com/matiassingers/awesome-readme)
 - [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
 - [dbader](https://github.com/dbader/readme-template)
 - [zenorocha](https://gist.github.com/zenorocha/4526327)
+- [fastfetch](https://github.com/fastfetch-cli/fastfetch)
 - [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
 - [neovim](https://neovim.io/)
 - [lazyvim](https://www.lazyvim.org)
