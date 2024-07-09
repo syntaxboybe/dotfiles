@@ -8,7 +8,7 @@
 
 ### Dependencies
 
-- Windows 10
+- Windows 10/11
 - Arch Linux(archcraft distro)
 
 ### Installing
