@@ -8,7 +8,7 @@
 
 ### Dependencies
 
-- Windows 10/11
+- Windows 10(pro)|11(pro)
 - Arch Linux(archcraft distro)
 
 ### Installing
@@ -39,4 +39,5 @@ Resources and inspiration for this project:
 - [komorebi](https://lgug2z.github.io/komorebi/)
 - [flowlauncher](https://www.flowlauncher.com/)
 - [glazeWM](https://github.com/glzr-io/glazewm)
+- [windows-utility](https://github.com/ChrisTitusTech/winutil)
 - [win11-toggle-rounded-corner](https://github.com/oberrich/win11-toggle-rounded-corners)
