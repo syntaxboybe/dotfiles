@@ -1,0 +1,24 @@
+{
+  "Install": [],
+  "WPFInstall": [],
+  "WPFFeature": [],
+  "WPFTweaks": [
+    "WPFTweaksRestorePoint",
+    "WPFTweaksDVR",
+    "WPFTweaksEndTaskOnTaskbar",
+    "WPFTweaksConsumerFeatures",
+    "WPFTweaksTele",
+    "WPFTweaksDeleteTempFiles",
+    "WPFTweaksDiskCleanup",
+    "WPFTweaksRemoveOnedrive",
+    "WPFTweaksServices",
+    "WPFTweaksWifi",
+    "WPFTweaksTeredo",
+    "WPFTweaksStorage",
+    "WPFTweaksUTC",
+    "WPFTweaksHiber",
+    "WPFTweaksLoc",
+    "WPFTweaksHome",
+    "WPFTweaksAH"
+  ]
+}
