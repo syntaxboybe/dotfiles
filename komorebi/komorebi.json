@@ -10,7 +10,7 @@
   "border_offset": -1,
   "border_style": "Square",
   "border_colours": {
-    "single": "#3ebfbb",
+    "single": "#00FFFF",
     "stack": "#00a542",
     "monocle": "#ff3399",
     "unfocused": "#808080"
