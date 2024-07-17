@@ -36,6 +36,7 @@ Resources and inspiration for this project:
 - [neovim](https://neovim.io/)
 - [lazyvim](https://www.lazyvim.org)
 - [lazygit](https://github.com/jesseduffield/lazygit)
+- [btop](https://github.com/aristocratos/btop4win)
 - [komorebi](https://lgug2z.github.io/komorebi/)
 - [flowlauncher](https://www.flowlauncher.com/)
 - [glazeWM](https://github.com/glzr-io/glazewm)
