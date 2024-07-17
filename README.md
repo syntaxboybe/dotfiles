@@ -33,6 +33,7 @@ Resources and inspiration for this project:
 - [zenorocha](https://gist.github.com/zenorocha/4526327)
 - [fastfetch](https://github.com/fastfetch-cli/fastfetch)
 - [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+- [firefoxCSS](https://firefoxcss-store.github.io/)
 - [neovim](https://neovim.io/)
 - [lazyvim](https://www.lazyvim.org)
 - [lazygit](https://github.com/jesseduffield/lazygit)
