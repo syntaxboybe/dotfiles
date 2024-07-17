@@ -14,7 +14,10 @@
 ### Installing
 
 - clone my repository
-  `https://github.com/syntaxboybe/dotfiles.git`
+
+```
+  git clone https://github.com/syntaxboybe/dotfiles.git
+```
 
 ### Executing program
 
