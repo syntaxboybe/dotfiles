@@ -13,7 +13,8 @@
 
 ### Installing
 
-- clone my repository => https://github.com/syntaxboybe/dotfiles.git
+- clone my repository
+  `https://github.com/syntaxboybe/dotfiles.git`
 
 ### Executing program
 
