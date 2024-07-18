@@ -46,4 +46,5 @@ Resources and inspiration for this project:
 - [flowlauncher](https://www.flowlauncher.com/)
 - [glazeWM](https://github.com/glzr-io/glazewm)
 - [windows-utility](https://github.com/ChrisTitusTech/winutil)
+- [vimium](https://vimium.github.io/)
 - [win11-toggle-rounded-corner](https://github.com/oberrich/win11-toggle-rounded-corners)
