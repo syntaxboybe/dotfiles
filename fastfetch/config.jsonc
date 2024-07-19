@@ -104,11 +104,6 @@
       "keyColor": "cyan",
     },
     {
-      "type": "swap",
-      "key": "   SWAP     ",
-      "keyColor": "cyan",
-    },
-    {
       "type": "disk",
       "key": "   DISK     ",
       "keyColor": "cyan",
