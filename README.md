@@ -29,7 +29,7 @@
 
 ## Acknowledgments
 
-Resources and inspiration for this project:
+Applications, Resources and inspirations for this project:
 
 - [awesome-readme](https://github.com/matiassingers/awesome-readme)
 - [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
@@ -45,7 +45,12 @@ Resources and inspiration for this project:
 - [komorebi](https://lgug2z.github.io/komorebi/)
 - [flowlauncher](https://www.flowlauncher.com/)
 - [glazeWM](https://github.com/glzr-io/glazewm)
+- [fzf](https://github.com/junegunn/fzf)
 - [windows-utility](https://github.com/ChrisTitusTech/winutil)
 - [wezterm-configs](https://github.com/KevinSilvester/wezterm-config)
 - [vimium](https://vimium.github.io/)
 - [win11-toggle-rounded-corner](https://github.com/oberrich/win11-toggle-rounded-corners)
+- [zoxide](https://github.com/ajeetdsouza/zoxide)
+- [eartrumpet](https://eartrumpet.app/)
+- [espanso](https://espanso.org/)
+- [quicklook](https://github.com/QL-Win/QuickLook)
