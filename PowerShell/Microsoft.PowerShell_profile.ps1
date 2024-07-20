@@ -9,3 +9,10 @@ $Env:KOMOREBI_CONFIG_HOME = 'C:\Users\Users\.config\komorebi'
 Import-Module -Name Terminal-Icons
 
 Invoke-Expression (& { (zoxide init powershell | Out-String) })
+
+$env:FZF_DEFAULT_OPTS='--height 100% --layout=reverse --border'
+
+function ff
+{
+  nvim $(fzf --preview 'bat --color=always {}' --preview-window '~3')
+}
