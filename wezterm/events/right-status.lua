@@ -61,7 +61,7 @@ local _push = function(text, icon, fg, bg, separate)
 end
 
 local _set_date = function()
-   local date = wezterm.strftime('%A, %I:%M:%S %p')
+   local date = wezterm.strftime('(%a)[%I:%M:%S %p]')
    _push(date, nf.fa_calendar, colors.date_fg, colors.date_bg, true)
 end
 
