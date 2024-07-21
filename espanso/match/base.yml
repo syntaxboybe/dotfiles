@@ -73,3 +73,7 @@ matches:
   # linkedIn
   - trigger: ":lin"
     replace: "https://www.linkedin.com/in/syntaxboybe/"
+
+  # Animepahe
+  - trigger: ":anime"
+    replace: "https://animepahe.ru/"
