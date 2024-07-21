@@ -48,6 +48,7 @@ Applications, Resources and inspirations for this project:
 - [fzf](https://github.com/junegunn/fzf)
 - [windows-utility](https://github.com/ChrisTitusTech/winutil)
 - [wezterm-configs](https://github.com/KevinSilvester/wezterm-config)
+- [shareX](https://getsharex.com/)
 - [vimium](https://vimium.github.io/)
 - [win11-toggle-rounded-corner](https://github.com/oberrich/win11-toggle-rounded-corners)
 - [zoxide](https://github.com/ajeetdsouza/zoxide)
