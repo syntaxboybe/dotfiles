@@ -1,4 +1,4 @@
-# LibConfig + wallpapers
+# LibConfig + Extras
 
 ## Description
 
