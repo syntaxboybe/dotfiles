@@ -1,0 +1,75 @@
+# espanso match file
+
+# For a complete introduction, visit the official docs at: https://espanso.org/docs/
+
+# You can use this file to define the base matches (aka snippets)
+# that will be available in every application when using espanso.
+
+# Matches are substitution rules: when you type the "trigger" string
+# it gets replaced by the "replace" string.
+matches:
+  # Simple text replacement
+  - trigger: ":espanso"
+    replace: "Hi there!"
+
+  # NOTE: espanso uses YAML to define matches, so pay attention to the indentation!
+
+  # But matches can also be dynamic:
+
+  # Print the current date
+  - trigger: ":date"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%m/%d/%Y"
+
+  # Print the output of a shell command
+  - trigger: ":shell"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "echo 'Hello from your shell'"
+
+  # Name
+  - trigger: ":name"
+    replace: "Beboy M. Eyana"
+
+  # Birthdate
+  - trigger: ":birthdate"
+    replace: "07-14-2000"
+
+  # Address
+  - trigger: ":address"
+    replace: "Zone 6 Burnay Gitagum, Misamis Oriental"
+
+  # email
+  - trigger: ":email"
+    replace: "beboy.eyana.m@gmail.com"
+
+  # Github
+  - trigger: ":gh"
+    replace: "https://github.com/syntaxboybe"
+
+  # Facebook
+  - trigger: ":fb"
+    replace: "https://web.facebook.com/syntaxboybe/"
+
+  # Youtube
+  - trigger: ":yt"
+    replace: "https://www.youtube.com/@syntxbyb"
+
+  # Twitter
+  - trigger: ":x"
+    replace: "https://x.com/syntaxboybe"
+
+  # Instagram
+  - trigger: ":insta"
+    replace: "https://www.instagram.com/syntaxboybe/"
+
+  # linkedIn
+  - trigger: ":lin"
+    replace: "https://www.linkedin.com/in/syntaxboybe/"
