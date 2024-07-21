@@ -77,3 +77,11 @@ matches:
   # Animepahe
   - trigger: ":anime"
     replace: "https://animepahe.ru/"
+
+  # Komorebic-START
+  - trigger: ":kstart"
+    replace: "komorebic start --whkd"
+
+  # Komorebic-STOP
+  - trigger: ":kstop"
+    replace: "komorebic stop --whkd"
