@@ -38,6 +38,7 @@ Applications, Resources and inspirations for this project:
 - [fastfetch](https://github.com/fastfetch-cli/fastfetch)
 - [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
 - [firefoxCSS](https://firefoxcss-store.github.io/)
+- [NerdFonts](nerdfonts.com)
 - [neovim](https://neovim.io/)
 - [lazyvim](https://www.lazyvim.org)
 - [lazygit](https://github.com/jesseduffield/lazygit)
@@ -57,3 +58,4 @@ Applications, Resources and inspirations for this project:
 - [eartrumpet](https://eartrumpet.app/)
 - [espanso](https://espanso.org/)
 - [quicklook](https://github.com/QL-Win/QuickLook)
+- [yasb](https://github.com/amnweb/yasb)
