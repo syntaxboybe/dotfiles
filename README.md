@@ -27,7 +27,7 @@
 
 - syntaxboybe
 
-## Acknowledgments
+## Acknowledgements
 
 Applications, Resources and inspirations for this project:
 
