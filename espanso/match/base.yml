@@ -85,3 +85,7 @@ matches:
   # Komorebic-STOP
   - trigger: ":kstop"
     replace: "komorebic stop --whkd"
+
+  # ShutdownPC
+  - trigger: ":s"
+    replace: "shutdown /s /t 0"
