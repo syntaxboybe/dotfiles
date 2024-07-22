@@ -89,3 +89,7 @@ matches:
   # ShutdownPC
   - trigger: ":s"
     replace: "shutdown /s /t 0"
+
+  # RebootPC
+  - trigger: ":r"
+    replace: "shutdown /r /t 0"
