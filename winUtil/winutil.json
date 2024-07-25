@@ -1,0 +1,28 @@
+{
+  "WPFFeature": [],
+  "WPFInstall": [],
+  "Install": [],
+  "WPFTweaks": [
+    "WPFTweaksRestorePoint",
+    "WPFTweaksDeleteTempFiles",
+    "WPFTweaksRemoveCopilot",
+    "WPFTweaksHome",
+    "WPFTweaksLoc",
+    "WPFTweaksAH",
+    "WPFTweaksRightClickMenu",
+    "WPFTweaksEndTaskOnTaskbar",
+    "WPFTweaksStorage",
+    "WPFTweaksServices",
+    "WPFTweaksDVR",
+    "WPFTweaksDisplay",
+    "WPFTweaksDiskCleanup",
+    "WPFTweaksTele",
+    "WPFTweaksTeredo",
+    "WPFTweaksWifi",
+    "WPFTweaksConsumerFeatures",
+    "WPFTweaksDisableNotifications",
+    "WPFTweaksRemoveOnedrive",
+    "WPFTweaksHiber",
+    "WPFTweaksUTC"
+  ]
+}
