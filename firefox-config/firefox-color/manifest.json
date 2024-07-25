@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "version": "1.0",
+  "name": "cyanatic",
+  "theme": {
+    "images": {},
+    "properties": {},
+    "colors": {
+      "toolbar": "rgb(26, 26, 27)",
+      "toolbar_text": "rgb(0, 255, 255)",
+      "frame": "rgb(26, 26, 27)",
+      "tab_background_text": "rgb(0, 255, 255)",
+      "toolbar_field": "rgb(26, 26, 27)",
+      "toolbar_field_text": "rgb(0, 255, 255)",
+      "tab_line": "rgb(0, 255, 255)",
+      "popup": "rgb(26, 26, 27)",
+      "popup_text": "rgb(0, 255, 255)",
+      "tab_loading": "rgb(0, 255, 255)"
+    }
+  }
+}
