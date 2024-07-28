@@ -21,10 +21,10 @@ bars:
       width: "100%"
       height: 25
     padding:
-      top: 2
-      left: 2
+      top: 0
+      left: 0
       bottom: 0
-      right: 2
+      right: 0
     widgets:
       left: ["active_window"]
       center: ["komorebi_workspaces", "komorebi_active_layout"]
