@@ -19,7 +19,7 @@ bars:
       windows_app_bar: true
     dimensions:
       width: "100%"
-      height: 25
+      height: 20
     padding:
       top: 0
       left: 0
@@ -28,7 +28,7 @@ bars:
     widgets:
       left: ["active_window"]
       center: ["komorebi_workspaces", "komorebi_active_layout"]
-      right: ["clock"]
+      right: ["wifi", "volume", "power_menu", "clock"]
 widgets:
   active_window:
     type: "yasb.active_window.ActiveWindowWidget"
@@ -52,7 +52,7 @@ widgets:
   clock:
     type: "yasb.clock.ClockWidget"
     options:
-      label: "{%a %d, %I:%M %p}"
+      label: "{%I:%M %p}"
       label_alt: "{%A %d %B %Y, %I:%M %p}"
       #locale: 'en_EN' # Langugae for date, you can set your own, example fr_FR
       timezones: [] #Looking up time zone info from registry
@@ -141,9 +141,7 @@ widgets:
         - "\udb82\udd25" # 51-75% strength
         - "\udb82\udd28" # 76-100% strength. Alternate theming: \uf1eb
       callbacks:
-        on_left: "exec cmd.exe /c start ms-settings:network"
-        on_middle: "do_nothing"
-        on_right: "do_nothing"
+        on_right: "exec cmd.exe /c start ms-settings:network"
 
   traffic:
     type: "yasb.traffic.TrafficWidget"
