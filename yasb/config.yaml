@@ -28,7 +28,7 @@ bars:
     widgets:
       left: ["active_window"]
       center: ["komorebi_workspaces", "komorebi_active_layout"]
-      right: ["wifi", "volume", "power_menu", "clock"]
+      right: ["memory", "cpu", "wifi", "volume", "power_menu", "clock"]
 widgets:
   active_window:
     type: "yasb.active_window.ActiveWindowWidget"
@@ -81,8 +81,8 @@ widgets:
   memory:
     type: "yasb.memory.MemoryWidget"
     options:
-      label: "\uf4bc {virtual_mem_free}"
-      label_alt: "\uf4bc {virtual_mem_percent}%"
+      label: "\uefc5 {virtual_mem_free}"
+      label_alt: "\uefc5 {virtual_mem_percent}%"
       update_interval: 5000
       callbacks:
         on_right: "exec cmd /c Taskmgr"
