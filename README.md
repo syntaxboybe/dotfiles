@@ -58,4 +58,5 @@ Applications, Resources and inspirations for this project:
 - [eartrumpet](https://eartrumpet.app/)
 - [espanso](https://espanso.org/)
 - [quicklook](https://github.com/QL-Win/QuickLook)
-- [yasb](https://github.com/amnweb/yasb)
+- [yasb](https://github.com/amnweb/yasb/tree/dev)
+- [xava](https://github.com/nikp123/xava)
