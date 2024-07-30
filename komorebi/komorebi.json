@@ -9,7 +9,7 @@
   "border": false,
   "border_width": 0,
   "border_offset": 0,
-  "border_style": "Round",
+  "border_style": "Rounded",
   "border_colours": {
     "single": "#00FFFF",
     "stack": "#00a542",
