@@ -1,61 +1,133 @@
 {
-  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.25/schema.json",
-  "app_specific_configuration_path": "$Env:KOMOREBI_CONFIG_HOME/applications.yaml",
+  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/master/schema.json",
+  "app_specific_configuration_path": "C:/Users/beboy/.config/komorebi/applications.yaml",
   "window_hiding_behaviour": "Cloak",
   "cross_monitor_move_behaviour": "Insert",
+  "default_workspace_padding": 3,
+  "default_container_padding": 3,
+  "focus_follows_mouse": "Komorebi",
   "mouse_follows_focus": false,
-  "default_workspace_padding": 0,
-  "default_container_padding": 0,
+  "transparency": true,
+  "transparency_alpha": 240,
+  "animation": {
+    "enabled": true,
+    "duration": 400,
+    "style": "EaseInOutExpo",
+    "fps": 60
+  },
   "border": false,
+  "border_implementation": "Windows",
   "border_width": 0,
   "border_offset": 0,
-  "border_style": "Rounded",
   "border_colours": {
-    "single": "#00FFFF",
-    "stack": "#00a542",
-    "monocle": "#ff3399",
-    "unfocused": "#808080"
+    "single": "#89b4fa",
+    "stack": "#a6e3a1",
+    "monocle": "#f38ba8",
+    "unfocused": "#2a3035"
   },
   "stackbar": {
-    "height": 40,
-    "mode": "OnStack",
-    "tabs": {
-      "width": 300,
-      "focused_text": "#00a542",
-      "unfocused_text": "#b3b3b3",
-      "background": "#141414"
-    }
+    "mode": "Never"
   },
+  "float_rules": [
+    {
+      "kind": "Exe",
+      "id": "explorer.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "Discord.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Title",
+      "id": "Rakuten Viber",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Title",
+      "id": "Skype",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "Telegram.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Title",
+      "id": "Settings",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Title",
+      "id": "Microsoft Store",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "Photoshop.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "Adobe Premiere Pro.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "Illustrator.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "OUTLOOK.EXE",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "ApplicationFrameHost.exe",
+      "matching_strategy": "Equals"
+    }
+  ],
   "monitors": [
     {
       "workspaces": [
         {
-          "name": "I",
+          "name": "1",
           "layout": "BSP"
         },
         {
-          "name": "II",
-          "layout": "VerticalStack"
+          "name": "2",
+          "layout": "BSP"
         },
         {
-          "name": "III",
-          "layout": "HorizontalStack"
+          "name": "3",
+          "layout": "BSP"
         },
         {
-          "name": "IV",
-          "layout": "UltrawideVerticalStack"
+          "name": "4",
+          "layout": "BSP"
+        }
+      ]
+    },
+    {
+      "workspaces": [
+        {
+          "name": "1",
+          "layout": "BSP"
         },
         {
-          "name": "V",
-          "layout": "Rows"
+          "name": "2",
+          "layout": "BSP"
         },
         {
-          "name": "VI",
-          "layout": "Grid"
+          "name": "3",
+          "layout": "BSP"
         },
         {
-          "name": "VII",
-          "layout": "RightMainVerticalStack"
+          "name": "4",
+          "layout": "BSP"
         }
       ]
     }

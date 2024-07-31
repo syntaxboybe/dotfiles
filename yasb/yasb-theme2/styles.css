@@ -17,8 +17,8 @@
 .media-widget {} -> Styles specific to the media widget
 */
 * {
-  font-size: 11px;
-  color: #cdd6f4;
+  font-size: 10px;
+  color: #ffffff;
   font-weight: 500;
   font-family: "JetBrainsMono Nerd Font", "JetBrainsMono NFP";
   margin: 0;
@@ -97,13 +97,13 @@
 }
 .komorebi-workspaces .ws-btn:hover,
 .komorebi-workspaces .ws-btn.populated:hover {
-  background-color: #fff;
+  background-color: #ffffff;
 }
 .komorebi-workspaces .ws-btn.populated {
   background-color: #00ffff;
 }
 .komorebi-workspaces .ws-btn.active {
-  background-color: #00ffff;
+  background-color: #89b4fa;
   color: rgba(0, 0, 0, 0);
   width: 26px;
 }
@@ -188,7 +188,7 @@
   margin: 0 2px 1px 0;
 }
 .memory-widget .icon {
-  color: #a6c9f7;
+  color: #eed49f;
 }
 .wifi-widget .icon {
   color: #43d8d8;
@@ -197,18 +197,18 @@
 }
 
 /* WEATHER WIDGET */
-.weather-widget .icon {
-  font-size: 16px;
-  margin: 0 2px 1px 0;
-}
-.weather-widget .icon.sunnyDay {
-  color: rgb(221, 210, 107);
-}
-.weather-widget .icon.clearNight {
-  color: rgb(107, 189, 221);
-  font-size: 22px;
-  margin: 1px 2px 0px 0;
-}
+/* .weather-widget .icon { */
+/*   font-size: 16px; */
+/*   margin: 0 2px 1px 0; */
+/* } */
+/* .weather-widget .icon.sunnyDay { */
+/*   color: rgb(221, 210, 107); */
+/* } */
+/* .weather-widget .icon.clearNight { */
+/*   color: rgb(107, 189, 221); */
+/*   font-size: 22px; */
+/*   margin: 1px 2px 0px 0; */
+/* } */
 /* 
 .weather-widget .icon.cloudyDay {}
 .weather-widget .icon.cloudyNight {} 
@@ -221,31 +221,31 @@
 */
 
 /* NEW MEDIA WIDGET */
-.media-widget {
-  padding: 0;
-  margin: 0;
-}
-.media-widget .label {
-  color: #bac2db;
-  background-color: rgba(24, 24, 37, 0.7);
-}
-.media-widget .btn {
-  color: #acb2c9;
-  padding: 0 3px;
-  margin: 4px 0;
-  font-family: Segoe Fluent Icons;
-}
-.media-widget .btn:hover {
-  color: #babfd3;
-}
-.media-widget .btn.play {
-  background-color: #313244;
-  border-radius: 14px;
-  font-size: 16px;
-}
-.media-widget .btn.disabled:hover,
-.media-widget .btn.disabled {
-  color: #4e525c;
-  font-size: 12px;
-  background-color: rgba(0, 0, 0, 0);
-}
+/* .media-widget { */
+/*   padding: 0; */
+/*   margin: 0; */
+/* } */
+/* .media-widget .label { */
+/*   color: #bac2db; */
+/*   background-color: rgba(24, 24, 37, 0.7); */
+/* } */
+/* .media-widget .btn { */
+/*   color: #acb2c9; */
+/*   padding: 0 3px; */
+/*   margin: 4px 0; */
+/*   font-family: Segoe Fluent Icons; */
+/* } */
+/* .media-widget .btn:hover { */
+/*   color: #babfd3; */
+/* } */
+/* .media-widget .btn.play { */
+/*   background-color: #313244; */
+/*   border-radius: 14px; */
+/*   font-size: 16px; */
+/* } */
+/* .media-widget .btn.disabled:hover, */
+/* .media-widget .btn.disabled { */
+/*   color: #4e525c; */
+/*   font-size: 12px; */
+/*   background-color: rgba(0, 0, 0, 0); */
+/* } */

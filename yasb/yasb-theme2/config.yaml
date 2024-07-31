@@ -22,9 +22,9 @@ bars:
       width: "100%"
       height: 36
     padding:
-      top: 2
+      top: 3
       left: 0
-      bottom: 2
+      bottom: 0
       right: 0
     widgets:
       left:
@@ -70,13 +70,13 @@ widgets:
       max_length_ellipsis: "..."
       monitor_exclusive: true
 
-  battery:
-    type: "yasb.battery.BatteryWidget"
-    options:
-      label: "<span>{icon}</span>{percent}%"
-      label_alt: "{icon} {percent}% | time: {time_remaining}"
-      charging_options:
-        icon_format: "{charging_icon}"
+  # battery:
+  #   type: "yasb.battery.BatteryWidget"
+  #   options:
+  #     label: "<span>{icon}</span>{percent}%"
+  #     label_alt: "{icon} {percent}% | time: {time_remaining}"
+  #     charging_options:
+  #       icon_format: "{charging_icon}"
 
   clock:
     type: "yasb.clock.ClockWidget"
@@ -175,67 +175,67 @@ widgets:
         on_middle: "do_nothing"
         on_right: "toggle_label"
 
-  traffic:
-    type: "yasb.traffic.TrafficWidget"
-    options:
-      label: "<span>\udb86\uddb3</span>{download_speed} | <span>\udb86\uddb2</span>{upload_speed}"
-      label_alt: "Download {download_speed} \ue621 Upload {upload_speed}"
-      update_interval: 1000 # Update interval should be a multiple of 1000
-      callbacks:
-        on_left: "toggle_label"
-        on_right: "exec cmd /c Taskmgr"
-
-  ip_info:
-    type: "yasb.custom.CustomWidget"
-    options:
-      label: "<span>\udb81\udd9f</span> {data[ip]}"
-      label_alt: "<span>\uf450</span> {data[city]} {data[region]}, {data[country]}"
-      class_name: "ip-info-widget"
-      exec_options:
-        run_cmd: "curl.exe https://ipinfo.io"
-        run_interval: 120000 # every 5 minutes
-        return_format: "json"
-      callbacks:
-        on_left: "toggle_label"
-        on_middle: "exec cmd /c ncpa.cpl" # open network settings
-        on_right: "exec cmd /c start https://ipinfo.io/{data[ip]} " # open ipinfo in browser
-
-  weather:
-    type: "yasb.weather.WeatherWidget"
-    options:
-      label: "<span>{icon}</span> {temp_c}"
-      label_alt: "{location}: Min {min_temp_c}, Max {max_temp_c}, Humidity {humidity}"
-      api_key: "3bf4cf9a7c3f40d6b31174128242807"
-      update_interval: 600 #Update interval in seconds, Min 600
-      hide_decimal: true
-      location: "PHILIPPINES Burnay Gitagum 9020" # You can use "USA Los Angeles 90006" {COUNTRY CITY ZIP_CODE}, or just city.
-      callbacks:
-        on_left: "toggle_label"
-      icons:
-        sunnyDay: "\ue30d"
-        clearNight: "\ue32b"
-        cloudyDay: "\udb81\udd99"
-        cloudyNight: "\ue311"
-        rainyDay: "\udb81\ude7e"
-        rainyNight: "\udb81\ude7e"
-        snowyIcyDay: "\udb81\udd98"
-        snowyIcyNight: "\udb81\udd98"
-        blizzard: "\uebaa"
-        default: "\uebaa"
-        # https://www.weatherapi.com/docs/
-        # Usage {temp_c}, {min_temp_c}, {max_temp_c}, {temp_f}, {min_temp_f}, {max_temp_f}, {location}, {humidity}, {icon}, {conditions}
-
-  lang:
-    type: "yasb.custom.CustomWidget"
-    options:
-      label: "<span>\uf1ab</span>{data}"
-      label_alt: "{data}"
-      class_name: "lang-widget"
-      exec_options:
-        run_cmd: "powershell Add-Type -AssemblyName System.Windows.Forms;([System.Windows.Forms.InputLanguage]::CurrentInputLanguage).Culture.Name"
-        # run every 10 sec
-        run_interval: 10000
-        return_format: "string"
+  # traffic:
+  #   type: "yasb.traffic.TrafficWidget"
+  #   options:
+  #     label: "<span>\udb86\uddb3</span>{download_speed} | <span>\udb86\uddb2</span>{upload_speed}"
+  #     label_alt: "Download {download_speed} \ue621 Upload {upload_speed}"
+  #     update_interval: 1000 # Update interval should be a multiple of 1000
+  #     callbacks:
+  #       on_left: "toggle_label"
+  #       on_right: "exec cmd /c Taskmgr"
+  #
+  # ip_info:
+  #   type: "yasb.custom.CustomWidget"
+  #   options:
+  #     label: "<span>\udb81\udd9f</span> {data[ip]}"
+  #     label_alt: "<span>\uf450</span> {data[city]} {data[region]}, {data[country]}"
+  #     class_name: "ip-info-widget"
+  #     exec_options:
+  #       run_cmd: "curl.exe https://ipinfo.io"
+  #       run_interval: 120000 # every 5 minutes
+  #       return_format: "json"
+  #     callbacks:
+  #       on_left: "toggle_label"
+  #       on_middle: "exec cmd /c ncpa.cpl" # open network settings
+  #       on_right: "exec cmd /c start https://ipinfo.io/{data[ip]} " # open ipinfo in browser
+  #
+  # weather:
+  #   type: "yasb.weather.WeatherWidget"
+  #   options:
+  #     label: "<span>{icon}</span> {temp_c}"
+  #     label_alt: "{location}: Min {min_temp_c}, Max {max_temp_c}, Humidity {humidity}"
+  #     api_key: "3bf4cf9a7c3f40d6b31174128242807"
+  #     update_interval: 600 #Update interval in seconds, Min 600
+  #     hide_decimal: true
+  #     location: "PHILIPPINES Burnay Gitagum 9020" # You can use "USA Los Angeles 90006" {COUNTRY CITY ZIP_CODE}, or just city.
+  #     callbacks:
+  #       on_left: "toggle_label"
+  #     icons:
+  #       sunnyDay: "\ue30d"
+  #       clearNight: "\ue32b"
+  #       cloudyDay: "\udb81\udd99"
+  #       cloudyNight: "\ue311"
+  #       rainyDay: "\udb81\ude7e"
+  #       rainyNight: "\udb81\ude7e"
+  #       snowyIcyDay: "\udb81\udd98"
+  #       snowyIcyNight: "\udb81\udd98"
+  #       blizzard: "\uebaa"
+  #       default: "\uebaa"
+  #       # https://www.weatherapi.com/docs/
+  #       # Usage {temp_c}, {min_temp_c}, {max_temp_c}, {temp_f}, {min_temp_f}, {max_temp_f}, {location}, {humidity}, {icon}, {conditions}
+  #
+  # lang:
+  #   type: "yasb.custom.CustomWidget"
+  #   options:
+  #     label: "<span>\uf1ab</span>{data}"
+  #     label_alt: "{data}"
+  #     class_name: "lang-widget"
+  #     exec_options:
+  #       run_cmd: "powershell Add-Type -AssemblyName System.Windows.Forms;([System.Windows.Forms.InputLanguage]::CurrentInputLanguage).Culture.Name"
+  #       # run every 10 sec
+  #       run_interval: 10000
+  #       return_format: "string"
 
   volume:
     type: "yasb.volume.VolumeWidget"
@@ -271,12 +271,12 @@ widgets:
       animation_duration: 300 # Milisecond
       button_row: 3 # Number of buttons in row, min 1 max 5
       buttons:
-        lock: ["\uea75", "Lock"]
-        signout: ["\udb80\udf43", "Sign out"]
+        #lock: ["\uea75", "Lock"]
+        #signout: ["\udb80\udf43", "Sign out"]
         #sleep: ["\u23fe","Sleep"]
         shutdown: ["\uf011", "Shut Down"]
         restart: ["\uead2", "Restart"]
-        hibernate: ["\uf28e", "Hibernate"]
+        #hibernate: ["\uf28e", "Hibernate"]
         cancel: ["\udb81\udf3a", "Cancel"]
         #force_shutdown: ["\uf011","Force Shut Down"]
         #force_restart: ["\uead2","Force Restart"]
@@ -292,27 +292,27 @@ widgets:
         #- {icon: "\udb80\ude39", launch: "C:\\Program Files\\Mozilla Firefox\\firefox.exe"}
         #- {icon: "\uf1ff", launch: "C:\\Users\\amn\\AppData\\Local\\Discord\\Update.exe --processStart Discord.exe"}
         #- {icon: "\ue217", launch: "C:\\Users\\amn\\AppData\\Roaming\\Telegram Desktop\\Telegram.exe"}
-        - { icon: "\uf0a2", launch: "notification_center" }
-        - { icon: "\ueb51", launch: "quick_settings" }
+        # - { icon: "\uf0a2", launch: "notification_center" }
+        # - { icon: "\ueb51", launch: "quick_settings" }
         #- {icon: "\uf46a", launch: "cmd.exe /c start ms-settings:windowsupdate"}
-        - { icon: "\uf422", launch: "search" }
+        # - { icon: "\uf422", launch: "search" }
         #- {icon: "\udb84\udf55", launch: "widget"}
         # Currently available to use quick_settings, notification_center, search, widget, launcher (launcher will trigger ALT+A)
 
-  nvidia_temp:
-    type: "yasb.custom.CustomWidget"
-    options:
-      label: "{data}<span>\udb81\udd04</span>"
-      label_alt: "{data}"
-      class_name: "system-widget"
-      exec_options:
-        run_cmd: "powershell nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader"
-        run_interval: 10000 # run every 10 sec
-        return_format: "string"
+  # nvidia_temp:
+  #   type: "yasb.custom.CustomWidget"
+  #   options:
+  #     label: "{data}<span>\udb81\udd04</span>"
+  #     label_alt: "{data}"
+  #     class_name: "system-widget"
+  #     exec_options:
+  #       run_cmd: "powershell nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader"
+  #       run_interval: 10000 # run every 10 sec
+  #       return_format: "string"
 
   win_button:
     type: "yasb.custom.CustomWidget"
     options:
       label: "\uf121 \x73\x79\x6e\x74\x61\x78\x62\x6f\x79\x62\x65"
       label_alt: "\ue62a"
-      class_name: "system-widget"
+      class_name: "win-button"
