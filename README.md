@@ -60,3 +60,7 @@ Applications, Resources and inspirations for this project:
 - [quicklook](https://github.com/QL-Win/QuickLook)
 - [yasb](https://github.com/amnweb/yasb/tree/dev)
 - [xava](https://github.com/nikp123/xava)
+- [7tsp](https://www.deviantart.com/devillnside/art/7TSP-GUI-2019-Edition-804769422)
+- [Catpuccin_Themes](https://www.deviantart.com/niivu/art/Catppuccin-Luv-1068250408)
+- [Explorer_Patcher](https://github.com/valinet/ExplorerPatcher)
+- [UltraUXThemePatcher](https://mhoefs.eu/software_uxtheme.php?lang=en)
