@@ -97,3 +97,7 @@ matches:
   # sfc/ scannow
   - trigger: ":sfc"
     replace: "sfc /scannow"
+
+  # sudp poweshell = run as admin
+  - trigger: ":sudo"
+    replace: "sudo powershell"
