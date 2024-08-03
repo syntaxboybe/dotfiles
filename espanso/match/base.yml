@@ -87,9 +87,13 @@ matches:
     replace: "komorebic stop --whkd"
 
   # ShutdownPC
-  - trigger: ":s"
+  - trigger: ":shut"
     replace: "shutdown /s /t 0"
 
   # RebootPC
-  - trigger: ":r"
+  - trigger: ":res"
     replace: "shutdown /r /t 0"
+
+  # sfc/ scannow
+  - trigger: ":sfc"
+    replace: "sfc /scannow"
