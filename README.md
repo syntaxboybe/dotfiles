@@ -62,5 +62,6 @@ Applications, Resources and inspirations for this project:
 - [xava](https://github.com/nikp123/xava)
 - [7tsp](https://www.deviantart.com/devillnside/art/7TSP-GUI-2019-Edition-804769422)
 - [Catpuccin_Themes](https://www.deviantart.com/niivu/art/Catppuccin-Luv-1068250408)
+- [Catpuccin_Cursors](https://www.deviantart.com/niivu/art/Catppuccin-Cursors-921387705)
 - [Explorer_Patcher](https://github.com/valinet/ExplorerPatcher)
 - [UltraUXThemePatcher](https://mhoefs.eu/software_uxtheme.php?lang=en)
