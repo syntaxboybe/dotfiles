@@ -1,4 +1,4 @@
-oh-my-posh init pwsh --config "C:\Users\Users\Documents\PowerShell\tokyonight_storm.omp.json" | Invoke-Expression
+oh-my-posh init pwsh --config "C:\Users\Users\Documents\PowerShell\json.omp.json" | Invoke-Expression
 
 if ($env:TERM_PROGRAM -eq "nvim")
 { . "$(nvim--locate-shell-integration-path pwsh)" 
