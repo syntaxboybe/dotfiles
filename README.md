@@ -65,3 +65,5 @@ Applications, Resources and inspirations for this project:
 - [Catpuccin_Cursors](https://www.deviantart.com/niivu/art/Catppuccin-Cursors-921387705)
 - [Explorer_Patcher](https://github.com/valinet/ExplorerPatcher)
 - [UltraUXThemePatcher](https://mhoefs.eu/software_uxtheme.php?lang=en)
+- [RAMMap](https://learn.microsoft.com/en-us/sysinternals/downloads/rammap)
+- [EmptyStandbyList](https://web.archive.org/web/20220927205631/https://wj32.org/wp/software/empty-standby-list/)
