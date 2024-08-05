@@ -4,7 +4,7 @@ return {
     name = "catppuccin",
     opts = {
       transparent_background = true,
-      falvour = "mocha",
+      flavour = "mocha",
       color_overrides = {
         all = {
           base = "#11111B",
