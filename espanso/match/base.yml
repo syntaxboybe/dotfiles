@@ -101,3 +101,7 @@ matches:
   # sudp poweshell = run as admin
   - trigger: ":sudo"
     replace: "sudo powershell"
+
+  # tldr
+  - trigger: ":t"
+    replace: "tldr"
