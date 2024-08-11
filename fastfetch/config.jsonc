@@ -5,7 +5,7 @@
   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
   "logo": {
     "type": "iterm",
-    "source": "C:/Users/Name/.config/fastfetch/logo.png",
+    "source": "C:/Users/beboy/.config/fastfetch/logo.png",
     "padding": {
       "left": 2,
       "top": 2,
@@ -69,6 +69,11 @@
       "keyColor": "bright_blue",
     },
     {
+      "type": "display",
+      "key": "  󱎴",
+      "keyColor": "red",
+    },
+    {
       "type": "cpu",
       "key": "  ",
       "keyColor": "bright_green",
@@ -91,7 +96,7 @@
     "break",
     {
       "type": "custom",
-      "format": "┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛",
+      "format": "┗━━━━━━━━━━━━━━━━━━━━━━━━━━━ syntaxboybe ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛",
     },
   ],
 }
