@@ -1,0 +1,514 @@
+2024-08-11 16:02:56 INFO log.py:21: Yasb
+2024-08-11 16:02:56 DEBUG proactor_events.py:634: Using proactor: _IocpProactor
+2024-08-11 16:02:57 DEBUG win32.py:58: Looking up time zone info from registry
+2024-08-11 16:02:59 INFO weather.py:156: Fetched new weather data at 2024-08-11 16:02:59.449891
+2024-08-11 16:03:00 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-08-11 16:03:02 INFO weather.py:156: Fetched new weather data at 2024-08-11 16:03:02.023459
+2024-08-11 16:03:02 INFO bar_manager.py:74: Starting KomorebiEventListener...
+2024-08-11 16:03:02 INFO bar_manager.py:74: Starting SystemEventListener...
+2024-08-11 16:03:02 INFO event_listener.py:52: Created named pipe yasb-219badf0-57b8-11ef-b2ac-00155d82ce00
+2024-08-11 16:03:02 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-219badf0-57b8-11ef-b2ac-00155d82ce00
+2024-08-11 16:03:02 INFO watcher.py:39: Created file watcher for path C:\Users\beboy\.config\yasb
+2024-08-11 16:03:02 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-08-11 16:03:02 DEBUG _windows.py:192: Thread started
+2024-08-11 16:03:02 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-219badf0-57b8-11ef-b2ac-00155d82ce00
+2024-08-11 16:04:00 ERROR wallpapers.py:127: Error changing wallpaper: [WinError 3] The system cannot find the path specified: 'C:\\Users\\xxx\\Images'
+2024-08-11 16:04:00 ERROR wallpapers.py:127: Error changing wallpaper: [WinError 3] The system cannot find the path specified: 'C:\\Users\\xxx\\Images'
+2024-08-11 16:04:01 ERROR wallpapers.py:127: Error changing wallpaper: [WinError 3] The system cannot find the path specified: 'C:\\Users\\xxx\\Images'
+2024-08-11 16:04:01 ERROR wallpapers.py:127: Error changing wallpaper: [WinError 3] The system cannot find the path specified: 'C:\\Users\\xxx\\Images'
+2024-08-11 16:04:01 ERROR wallpapers.py:127: Error changing wallpaper: [WinError 3] The system cannot find the path specified: 'C:\\Users\\xxx\\Images'
+2024-08-11 16:07:37 ERROR wallpapers.py:127: Error changing wallpaper: [WinError 3] The system cannot find the path specified: 'C:\\Users\\xxx\\Images'
+2024-08-11 16:07:44 INFO tray.py:147: Reloading Application...
+2024-08-11 16:07:45 INFO log.py:21: Yasb
+2024-08-11 16:09:02 INFO log.py:21: Yasb
+2024-08-11 16:09:03 DEBUG proactor_events.py:634: Using proactor: _IocpProactor
+2024-08-11 16:09:03 DEBUG win32.py:58: Looking up time zone info from registry
+2024-08-11 16:09:03 INFO weather.py:156: Fetched new weather data at 2024-08-11 16:09:03.857194
+2024-08-11 16:09:04 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-08-11 16:09:05 INFO weather.py:156: Fetched new weather data at 2024-08-11 16:09:05.244578
+2024-08-11 16:09:05 INFO bar_manager.py:74: Starting SystemEventListener...
+2024-08-11 16:09:05 INFO bar_manager.py:74: Starting KomorebiEventListener...
+2024-08-11 16:09:05 INFO event_listener.py:52: Created named pipe yasb-fa1ae7f5-57b8-11ef-80ce-00155d82ce00
+2024-08-11 16:09:05 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-fa1ae7f5-57b8-11ef-80ce-00155d82ce00
+2024-08-11 16:09:05 INFO watcher.py:39: Created file watcher for path C:\Users\beboy\.config\yasb
+2024-08-11 16:09:05 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-08-11 16:09:05 DEBUG _windows.py:192: Thread started
+2024-08-11 16:09:05 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-fa1ae7f5-57b8-11ef-80ce-00155d82ce00
+2024-08-11 16:16:19 INFO tray.py:147: Reloading Application...
+2024-08-11 16:16:20 INFO log.py:21: Yasb
+2024-08-11 16:16:20 DEBUG proactor_events.py:634: Using proactor: _IocpProactor
+2024-08-11 16:16:20 DEBUG win32.py:58: Looking up time zone info from registry
+2024-08-11 16:16:21 INFO github.py:292: Check for GitHub notifications at 2024-08-11 16:16:21.615676
+2024-08-11 16:16:21 INFO weather.py:156: Fetched new weather data at 2024-08-11 16:16:21.628727
+2024-08-11 16:16:21 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-08-11 16:16:22 INFO github.py:292: Check for GitHub notifications at 2024-08-11 16:16:22.959480
+2024-08-11 16:16:22 INFO weather.py:156: Fetched new weather data at 2024-08-11 16:16:22.965479
+2024-08-11 16:16:23 INFO bar_manager.py:74: Starting KomorebiEventListener...
+2024-08-11 16:16:23 INFO bar_manager.py:74: Starting SystemEventListener...
+2024-08-11 16:16:23 ERROR github.py:341: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2024-08-11 16:16:23 INFO event_listener.py:52: Created named pipe yasb-fefe8b94-57b9-11ef-b937-00155d82ce00
+2024-08-11 16:16:23 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-fefe8b94-57b9-11ef-b937-00155d82ce00
+2024-08-11 16:16:23 INFO watcher.py:39: Created file watcher for path C:\Users\beboy\.config\yasb
+2024-08-11 16:16:23 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-08-11 16:16:23 DEBUG _windows.py:192: Thread started
+2024-08-11 16:16:23 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-fefe8b94-57b9-11ef-b937-00155d82ce00
+2024-08-11 16:16:24 ERROR github.py:341: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2024-08-11 16:19:57 INFO tray.py:147: Reloading Application...
+2024-08-11 16:19:57 INFO log.py:21: Yasb
+2024-08-11 16:19:58 DEBUG proactor_events.py:634: Using proactor: _IocpProactor
+2024-08-11 16:19:58 DEBUG win32.py:58: Looking up time zone info from registry
+2024-08-11 16:19:58 INFO github.py:292: Check for GitHub notifications at 2024-08-11 16:19:58.733348
+2024-08-11 16:19:58 INFO weather.py:156: Fetched new weather data at 2024-08-11 16:19:58.748666
+2024-08-11 16:19:59 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-08-11 16:20:00 ERROR github.py:341: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2024-08-11 16:20:01 INFO github.py:292: Check for GitHub notifications at 2024-08-11 16:20:01.027566
+2024-08-11 16:20:01 INFO weather.py:156: Fetched new weather data at 2024-08-11 16:20:01.031575
+2024-08-11 16:20:01 INFO bar_manager.py:74: Starting KomorebiEventListener...
+2024-08-11 16:20:01 INFO bar_manager.py:74: Starting SystemEventListener...
+2024-08-11 16:20:01 INFO event_listener.py:52: Created named pipe yasb-80f8be6f-57ba-11ef-b44a-00155d82ce00
+2024-08-11 16:20:01 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-80f8be6f-57ba-11ef-b44a-00155d82ce00
+2024-08-11 16:20:01 INFO watcher.py:39: Created file watcher for path C:\Users\beboy\.config\yasb
+2024-08-11 16:20:01 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-08-11 16:20:01 DEBUG _windows.py:192: Thread started
+2024-08-11 16:20:01 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-80f8be6f-57ba-11ef-b44a-00155d82ce00
+2024-08-11 16:20:02 ERROR github.py:341: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2024-08-11 16:24:58 INFO github.py:292: Check for GitHub notifications at 2024-08-11 16:24:58.722172
+2024-08-11 16:24:59 ERROR github.py:341: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2024-08-11 16:25:01 INFO github.py:292: Check for GitHub notifications at 2024-08-11 16:25:01.036348
+2024-08-11 16:25:02 ERROR github.py:341: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2024-08-11 16:25:49 INFO tray.py:147: Reloading Application...
+2024-08-11 16:25:50 INFO log.py:21: Yasb
+2024-08-11 16:25:50 DEBUG proactor_events.py:634: Using proactor: _IocpProactor
+2024-08-11 16:25:50 DEBUG win32.py:58: Looking up time zone info from registry
+2024-08-11 16:25:50 INFO github.py:292: Check for GitHub notifications at 2024-08-11 16:25:50.879345
+2024-08-11 16:25:50 INFO weather.py:156: Fetched new weather data at 2024-08-11 16:25:50.897093
+2024-08-11 16:25:51 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-08-11 16:25:52 INFO github.py:292: Check for GitHub notifications at 2024-08-11 16:25:52.177483
+2024-08-11 16:25:52 INFO weather.py:156: Fetched new weather data at 2024-08-11 16:25:52.181482
+2024-08-11 16:25:52 INFO bar_manager.py:74: Starting KomorebiEventListener...
+2024-08-11 16:25:52 INFO bar_manager.py:74: Starting SystemEventListener...
+2024-08-11 16:25:52 INFO event_listener.py:52: Created named pipe yasb-5246bc16-57bb-11ef-a9bc-00155d82ce00
+2024-08-11 16:25:52 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-5246bc16-57bb-11ef-a9bc-00155d82ce00
+2024-08-11 16:25:52 INFO watcher.py:39: Created file watcher for path C:\Users\beboy\.config\yasb
+2024-08-11 16:25:52 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-08-11 16:25:52 DEBUG _windows.py:192: Thread started
+2024-08-11 16:25:52 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-5246bc16-57bb-11ef-a9bc-00155d82ce00
+2024-08-11 16:30:50 INFO github.py:292: Check for GitHub notifications at 2024-08-11 16:30:50.887728
+2024-08-11 16:30:52 INFO github.py:292: Check for GitHub notifications at 2024-08-11 16:30:52.207561
+2024-08-11 16:31:04 INFO tray.py:147: Reloading Application...
+2024-08-11 16:31:05 INFO log.py:21: Yasb
+2024-08-11 16:31:05 DEBUG proactor_events.py:634: Using proactor: _IocpProactor
+2024-08-11 16:31:05 DEBUG win32.py:58: Looking up time zone info from registry
+2024-08-11 16:31:05 INFO weather.py:156: Fetched new weather data at 2024-08-11 16:31:05.993882
+2024-08-11 16:31:06 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-08-11 16:31:06 INFO github.py:292: Check for GitHub notifications at 2024-08-11 16:31:06.422036
+2024-08-11 16:31:07 INFO weather.py:156: Fetched new weather data at 2024-08-11 16:31:07.448267
+2024-08-11 16:31:07 INFO github.py:292: Check for GitHub notifications at 2024-08-11 16:31:07.465244
+2024-08-11 16:31:07 INFO bar_manager.py:74: Starting SystemEventListener...
+2024-08-11 16:31:07 INFO bar_manager.py:74: Starting KomorebiEventListener...
+2024-08-11 16:31:07 INFO event_listener.py:52: Created named pipe yasb-0e30d298-57bc-11ef-a150-00155d82ce00
+2024-08-11 16:31:07 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-0e30d298-57bc-11ef-a150-00155d82ce00
+2024-08-11 16:31:07 INFO watcher.py:39: Created file watcher for path C:\Users\beboy\.config\yasb
+2024-08-11 16:31:07 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-08-11 16:31:07 DEBUG _windows.py:192: Thread started
+2024-08-11 16:31:07 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-0e30d298-57bc-11ef-a150-00155d82ce00
+2024-08-11 16:36:06 INFO github.py:292: Check for GitHub notifications at 2024-08-11 16:36:06.423099
+2024-08-11 16:36:07 INFO github.py:292: Check for GitHub notifications at 2024-08-11 16:36:07.496004
+2024-08-11 16:37:11 INFO tray.py:147: Reloading Application...
+2024-08-11 16:37:12 INFO log.py:21: Yasb
+2024-08-11 16:37:12 DEBUG proactor_events.py:634: Using proactor: _IocpProactor
+2024-08-11 16:37:12 DEBUG win32.py:58: Looking up time zone info from registry
+2024-08-11 16:37:12 INFO weather.py:156: Fetched new weather data at 2024-08-11 16:37:12.875944
+2024-08-11 16:37:13 INFO github.py:292: Check for GitHub notifications at 2024-08-11 16:37:13.424493
+2024-08-11 16:37:13 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-08-11 16:37:15 INFO weather.py:156: Fetched new weather data at 2024-08-11 16:37:15.344661
+2024-08-11 16:37:15 INFO github.py:292: Check for GitHub notifications at 2024-08-11 16:37:15.357689
+2024-08-11 16:37:15 INFO bar_manager.py:74: Starting KomorebiEventListener...
+2024-08-11 16:37:15 INFO bar_manager.py:74: Starting SystemEventListener...
+2024-08-11 16:37:15 INFO event_listener.py:52: Created named pipe yasb-e97a4541-57bc-11ef-a97e-00155d82ce00
+2024-08-11 16:37:15 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-e97a4541-57bc-11ef-a97e-00155d82ce00
+2024-08-11 16:37:15 INFO watcher.py:39: Created file watcher for path C:\Users\beboy\.config\yasb
+2024-08-11 16:37:15 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-08-11 16:37:15 DEBUG _windows.py:192: Thread started
+2024-08-11 16:37:15 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-e97a4541-57bc-11ef-a97e-00155d82ce00
+2024-08-11 16:42:13 INFO github.py:292: Check for GitHub notifications at 2024-08-11 16:42:13.431601
+2024-08-11 16:42:15 INFO github.py:292: Check for GitHub notifications at 2024-08-11 16:42:15.358562
+2024-08-11 16:43:08 INFO tray.py:147: Reloading Application...
+2024-08-11 16:43:08 INFO log.py:21: Yasb
+2024-08-11 16:43:08 DEBUG proactor_events.py:634: Using proactor: _IocpProactor
+2024-08-11 16:43:09 DEBUG win32.py:58: Looking up time zone info from registry
+2024-08-11 16:43:09 INFO weather.py:156: Fetched new weather data at 2024-08-11 16:43:09.461914
+2024-08-11 16:43:09 INFO github.py:292: Check for GitHub notifications at 2024-08-11 16:43:09.856694
+2024-08-11 16:43:09 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-08-11 16:43:10 INFO weather.py:156: Fetched new weather data at 2024-08-11 16:43:10.927738
+2024-08-11 16:43:10 INFO github.py:292: Check for GitHub notifications at 2024-08-11 16:43:10.943764
+2024-08-11 16:43:11 INFO bar_manager.py:74: Starting KomorebiEventListener...
+2024-08-11 16:43:11 INFO bar_manager.py:74: Starting SystemEventListener...
+2024-08-11 16:43:11 INFO event_listener.py:52: Created named pipe yasb-bd6d6d1b-57bd-11ef-aaa1-00155d82ce00
+2024-08-11 16:43:11 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-bd6d6d1b-57bd-11ef-aaa1-00155d82ce00
+2024-08-11 16:43:11 INFO watcher.py:39: Created file watcher for path C:\Users\beboy\.config\yasb
+2024-08-11 16:43:11 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-08-11 16:43:11 DEBUG _windows.py:192: Thread started
+2024-08-11 16:43:11 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-bd6d6d1b-57bd-11ef-aaa1-00155d82ce00
+2024-08-11 16:43:47 INFO tray.py:147: Reloading Application...
+2024-08-11 16:43:47 INFO log.py:21: Yasb
+2024-08-11 16:43:47 DEBUG proactor_events.py:634: Using proactor: _IocpProactor
+2024-08-11 16:43:47 DEBUG win32.py:58: Looking up time zone info from registry
+2024-08-11 16:43:48 INFO weather.py:156: Fetched new weather data at 2024-08-11 16:43:48.298294
+2024-08-11 16:43:48 INFO github.py:292: Check for GitHub notifications at 2024-08-11 16:43:48.660843
+2024-08-11 16:43:48 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-08-11 16:43:49 INFO weather.py:156: Fetched new weather data at 2024-08-11 16:43:49.900693
+2024-08-11 16:43:49 INFO github.py:292: Check for GitHub notifications at 2024-08-11 16:43:49.920762
+2024-08-11 16:43:50 INFO bar_manager.py:74: Starting KomorebiEventListener...
+2024-08-11 16:43:50 INFO bar_manager.py:74: Starting SystemEventListener...
+2024-08-11 16:43:50 INFO event_listener.py:52: Created named pipe yasb-d4aa6f5c-57bd-11ef-b1fd-00155d82ce00
+2024-08-11 16:43:50 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-d4aa6f5c-57bd-11ef-b1fd-00155d82ce00
+2024-08-11 16:43:50 INFO watcher.py:39: Created file watcher for path C:\Users\beboy\.config\yasb
+2024-08-11 16:43:50 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-08-11 16:43:50 DEBUG _windows.py:192: Thread started
+2024-08-11 16:43:50 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-d4aa6f5c-57bd-11ef-b1fd-00155d82ce00
+2024-08-11 16:44:08 INFO tray.py:147: Reloading Application...
+2024-08-11 16:44:08 INFO log.py:21: Yasb
+2024-08-11 16:44:09 DEBUG proactor_events.py:634: Using proactor: _IocpProactor
+2024-08-11 16:44:09 DEBUG win32.py:58: Looking up time zone info from registry
+2024-08-11 16:44:09 INFO weather.py:156: Fetched new weather data at 2024-08-11 16:44:09.550685
+2024-08-11 16:44:09 INFO github.py:292: Check for GitHub notifications at 2024-08-11 16:44:09.920763
+2024-08-11 16:44:09 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-08-11 16:44:11 INFO weather.py:156: Fetched new weather data at 2024-08-11 16:44:11.022600
+2024-08-11 16:44:11 INFO github.py:292: Check for GitHub notifications at 2024-08-11 16:44:11.037074
+2024-08-11 16:44:11 INFO bar_manager.py:74: Starting KomorebiEventListener...
+2024-08-11 16:44:11 INFO bar_manager.py:74: Starting SystemEventListener...
+2024-08-11 16:44:11 INFO event_listener.py:52: Created named pipe yasb-e13ebf0f-57bd-11ef-b825-00155d82ce00
+2024-08-11 16:44:11 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-e13ebf0f-57bd-11ef-b825-00155d82ce00
+2024-08-11 16:44:11 INFO watcher.py:39: Created file watcher for path C:\Users\beboy\.config\yasb
+2024-08-11 16:44:11 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-08-11 16:44:11 DEBUG _windows.py:192: Thread started
+2024-08-11 16:44:11 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-e13ebf0f-57bd-11ef-b825-00155d82ce00
+2024-08-11 16:44:36 INFO tray.py:147: Reloading Application...
+2024-08-11 16:44:36 INFO log.py:21: Yasb
+2024-08-11 16:44:36 DEBUG proactor_events.py:634: Using proactor: _IocpProactor
+2024-08-11 16:44:36 DEBUG win32.py:58: Looking up time zone info from registry
+2024-08-11 16:44:37 INFO weather.py:156: Fetched new weather data at 2024-08-11 16:44:37.303332
+2024-08-11 16:44:37 INFO github.py:292: Check for GitHub notifications at 2024-08-11 16:44:37.676624
+2024-08-11 16:44:37 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-08-11 16:44:38 INFO weather.py:156: Fetched new weather data at 2024-08-11 16:44:38.751075
+2024-08-11 16:44:38 INFO github.py:292: Check for GitHub notifications at 2024-08-11 16:44:38.765129
+2024-08-11 16:44:38 INFO bar_manager.py:74: Starting SystemEventListener...
+2024-08-11 16:44:38 INFO bar_manager.py:74: Starting KomorebiEventListener...
+2024-08-11 16:44:38 INFO event_listener.py:52: Created named pipe yasb-f1c51064-57bd-11ef-a157-00155d82ce00
+2024-08-11 16:44:38 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-f1c51064-57bd-11ef-a157-00155d82ce00
+2024-08-11 16:44:39 INFO watcher.py:39: Created file watcher for path C:\Users\beboy\.config\yasb
+2024-08-11 16:44:39 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-08-11 16:44:39 DEBUG _windows.py:192: Thread started
+2024-08-11 16:44:39 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-f1c51064-57bd-11ef-a157-00155d82ce00
+2024-08-11 16:44:59 INFO tray.py:147: Reloading Application...
+2024-08-11 16:45:00 INFO log.py:21: Yasb
+2024-08-11 16:45:00 DEBUG proactor_events.py:634: Using proactor: _IocpProactor
+2024-08-11 16:45:00 DEBUG win32.py:58: Looking up time zone info from registry
+2024-08-11 16:45:01 INFO weather.py:156: Fetched new weather data at 2024-08-11 16:45:01.268950
+2024-08-11 16:45:01 INFO github.py:292: Check for GitHub notifications at 2024-08-11 16:45:01.648139
+2024-08-11 16:45:01 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-08-11 16:45:02 INFO weather.py:156: Fetched new weather data at 2024-08-11 16:45:02.809177
+2024-08-11 16:45:02 INFO github.py:292: Check for GitHub notifications at 2024-08-11 16:45:02.823331
+2024-08-11 16:45:02 INFO bar_manager.py:74: Starting SystemEventListener...
+2024-08-11 16:45:02 INFO bar_manager.py:74: Starting KomorebiEventListener...
+2024-08-11 16:45:02 INFO event_listener.py:52: Created named pipe yasb-001df1ef-57be-11ef-91cb-00155d82ce00
+2024-08-11 16:45:03 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-001df1ef-57be-11ef-91cb-00155d82ce00
+2024-08-11 16:45:03 INFO watcher.py:39: Created file watcher for path C:\Users\beboy\.config\yasb
+2024-08-11 16:45:03 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-08-11 16:45:03 DEBUG _windows.py:192: Thread started
+2024-08-11 16:45:03 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-001df1ef-57be-11ef-91cb-00155d82ce00
+2024-08-11 16:45:41 INFO tray.py:147: Reloading Application...
+2024-08-11 16:45:42 INFO log.py:21: Yasb
+2024-08-11 16:45:42 DEBUG proactor_events.py:634: Using proactor: _IocpProactor
+2024-08-11 16:45:42 DEBUG win32.py:58: Looking up time zone info from registry
+2024-08-11 16:45:42 INFO weather.py:156: Fetched new weather data at 2024-08-11 16:45:42.942901
+2024-08-11 16:45:43 INFO github.py:292: Check for GitHub notifications at 2024-08-11 16:45:43.315826
+2024-08-11 16:45:43 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-08-11 16:45:44 INFO weather.py:156: Fetched new weather data at 2024-08-11 16:45:44.384440
+2024-08-11 16:45:44 INFO github.py:292: Check for GitHub notifications at 2024-08-11 16:45:44.398487
+2024-08-11 16:45:44 INFO bar_manager.py:74: Starting SystemEventListener...
+2024-08-11 16:45:44 INFO bar_manager.py:74: Starting KomorebiEventListener...
+2024-08-11 16:45:44 INFO event_listener.py:52: Created named pipe yasb-18e4a20f-57be-11ef-9171-00155d82ce00
+2024-08-11 16:45:44 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-18e4a20f-57be-11ef-9171-00155d82ce00
+2024-08-11 16:45:44 INFO watcher.py:39: Created file watcher for path C:\Users\beboy\.config\yasb
+2024-08-11 16:45:44 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-08-11 16:45:44 DEBUG _windows.py:192: Thread started
+2024-08-11 16:45:44 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-18e4a20f-57be-11ef-9171-00155d82ce00
+2024-08-11 16:46:30 INFO tray.py:122: Removed shortcut from C:\Users\beboy\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\yasb.lnk
+2024-08-11 16:46:32 INFO tray.py:112: Created shortcut at C:\Users\beboy\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\yasb.lnk
+2024-08-11 16:47:48 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2024-08-11 16:47:48 INFO event_listener.py:93: Attempting to reconnect...
+2024-08-11 16:47:53 INFO event_listener.py:52: Created named pipe yasb-18e4a20f-57be-11ef-9171-00155d82ce00
+2024-08-11 16:47:53 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-18e4a20f-57be-11ef-9171-00155d82ce00
+2024-08-11 16:47:53 WARNING event_listener.py:111: Komorebi failed to subscribe named pipe. Waiting for subscription...
+2024-08-11 16:48:03 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-18e4a20f-57be-11ef-9171-00155d82ce00
+2024-08-11 16:48:56 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2024-08-11 16:48:56 INFO event_listener.py:93: Attempting to reconnect...
+2024-08-11 16:49:01 INFO event_listener.py:52: Created named pipe yasb-18e4a20f-57be-11ef-9171-00155d82ce00
+2024-08-11 16:49:01 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-18e4a20f-57be-11ef-9171-00155d82ce00
+2024-08-11 16:49:01 WARNING event_listener.py:111: Komorebi failed to subscribe named pipe. Waiting for subscription...
+2024-08-11 16:49:11 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-18e4a20f-57be-11ef-9171-00155d82ce00
+2024-08-11 16:50:43 INFO github.py:292: Check for GitHub notifications at 2024-08-11 16:50:43.316009
+2024-08-11 16:50:44 INFO github.py:292: Check for GitHub notifications at 2024-08-11 16:50:44.404759
+2024-08-11 16:51:02 INFO tray.py:147: Reloading Application...
+2024-08-11 16:51:03 INFO log.py:21: Yasb
+2024-08-11 16:51:03 DEBUG proactor_events.py:634: Using proactor: _IocpProactor
+2024-08-11 16:51:03 DEBUG win32.py:58: Looking up time zone info from registry
+2024-08-11 16:51:03 INFO weather.py:156: Fetched new weather data at 2024-08-11 16:51:03.786764
+2024-08-11 16:51:04 INFO github.py:292: Check for GitHub notifications at 2024-08-11 16:51:04.181158
+2024-08-11 16:51:04 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-08-11 16:51:05 INFO weather.py:156: Fetched new weather data at 2024-08-11 16:51:05.968003
+2024-08-11 16:51:05 INFO github.py:292: Check for GitHub notifications at 2024-08-11 16:51:05.982515
+2024-08-11 16:51:06 INFO bar_manager.py:74: Starting KomorebiEventListener...
+2024-08-11 16:51:06 INFO bar_manager.py:74: Starting SystemEventListener...
+2024-08-11 16:51:06 INFO event_listener.py:52: Created named pipe yasb-d891892e-57be-11ef-bb78-00155d82ce00
+2024-08-11 16:51:06 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-d891892e-57be-11ef-bb78-00155d82ce00
+2024-08-11 16:51:06 INFO watcher.py:39: Created file watcher for path C:\Users\beboy\.config\yasb
+2024-08-11 16:51:06 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-08-11 16:51:06 DEBUG _windows.py:192: Thread started
+2024-08-11 16:51:06 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-d891892e-57be-11ef-bb78-00155d82ce00
+2024-08-11 16:51:50 INFO tray.py:147: Reloading Application...
+2024-08-11 16:51:51 INFO log.py:21: Yasb
+2024-08-11 16:51:51 DEBUG proactor_events.py:634: Using proactor: _IocpProactor
+2024-08-11 16:51:52 DEBUG win32.py:58: Looking up time zone info from registry
+2024-08-11 16:51:52 INFO weather.py:156: Fetched new weather data at 2024-08-11 16:51:52.361630
+2024-08-11 16:51:52 INFO github.py:292: Check for GitHub notifications at 2024-08-11 16:51:52.746409
+2024-08-11 16:51:52 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-08-11 16:51:53 INFO weather.py:156: Fetched new weather data at 2024-08-11 16:51:53.784372
+2024-08-11 16:51:53 INFO github.py:292: Check for GitHub notifications at 2024-08-11 16:51:53.803438
+2024-08-11 16:51:53 INFO bar_manager.py:74: Starting SystemEventListener...
+2024-08-11 16:51:53 INFO bar_manager.py:74: Starting KomorebiEventListener...
+2024-08-11 16:51:54 INFO event_listener.py:52: Created named pipe yasb-f5149aa5-57be-11ef-9477-00155d82ce00
+2024-08-11 16:51:54 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-f5149aa5-57be-11ef-9477-00155d82ce00
+2024-08-11 16:51:54 INFO watcher.py:39: Created file watcher for path C:\Users\beboy\.config\yasb
+2024-08-11 16:51:54 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-08-11 16:51:54 DEBUG _windows.py:192: Thread started
+2024-08-11 16:51:54 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-f5149aa5-57be-11ef-9477-00155d82ce00
+2024-08-11 16:56:52 INFO github.py:292: Check for GitHub notifications at 2024-08-11 16:56:52.759116
+2024-08-11 16:56:53 INFO github.py:292: Check for GitHub notifications at 2024-08-11 16:56:53.800582
+2024-08-11 17:01:52 INFO weather.py:156: Fetched new weather data at 2024-08-11 17:01:52.376119
+2024-08-11 17:01:52 INFO github.py:292: Check for GitHub notifications at 2024-08-11 17:01:52.749419
+2024-08-11 17:01:53 INFO weather.py:156: Fetched new weather data at 2024-08-11 17:01:53.786271
+2024-08-11 17:01:53 INFO github.py:292: Check for GitHub notifications at 2024-08-11 17:01:53.801479
+2024-08-11 17:06:52 INFO github.py:292: Check for GitHub notifications at 2024-08-11 17:06:52.750580
+2024-08-11 17:06:53 INFO github.py:292: Check for GitHub notifications at 2024-08-11 17:06:53.802487
+2024-08-11 17:11:52 INFO weather.py:156: Fetched new weather data at 2024-08-11 17:11:52.363239
+2024-08-11 17:11:52 INFO github.py:292: Check for GitHub notifications at 2024-08-11 17:11:52.737492
+2024-08-11 17:11:53 INFO weather.py:156: Fetched new weather data at 2024-08-11 17:11:53.788772
+2024-08-11 17:11:53 INFO github.py:292: Check for GitHub notifications at 2024-08-11 17:11:53.804761
+2024-08-11 17:15:11 INFO tray.py:147: Reloading Application...
+2024-08-11 17:15:12 INFO log.py:21: Yasb
+2024-08-11 17:15:12 DEBUG proactor_events.py:634: Using proactor: _IocpProactor
+2024-08-11 17:15:12 DEBUG win32.py:58: Looking up time zone info from registry
+2024-08-11 17:15:13 INFO weather.py:156: Fetched new weather data at 2024-08-11 17:15:13.241921
+2024-08-11 17:15:13 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-08-11 17:15:13 INFO github.py:292: Check for GitHub notifications at 2024-08-11 17:15:13.698619
+2024-08-11 17:15:15 INFO weather.py:156: Fetched new weather data at 2024-08-11 17:15:15.305363
+2024-08-11 17:15:15 INFO github.py:292: Check for GitHub notifications at 2024-08-11 17:15:15.321875
+2024-08-11 17:15:15 INFO bar_manager.py:74: Starting SystemEventListener...
+2024-08-11 17:15:15 INFO bar_manager.py:74: Starting KomorebiEventListener...
+2024-08-11 17:15:15 INFO event_listener.py:52: Created named pipe yasb-387036e0-57c2-11ef-b916-00155d82ce00
+2024-08-11 17:15:15 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-387036e0-57c2-11ef-b916-00155d82ce00
+2024-08-11 17:15:15 INFO watcher.py:39: Created file watcher for path C:\Users\beboy\.config\yasb
+2024-08-11 17:15:15 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-08-11 17:15:15 DEBUG _windows.py:192: Thread started
+2024-08-11 17:15:15 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-387036e0-57c2-11ef-b916-00155d82ce00
+2024-08-11 17:15:52 INFO tray.py:147: Reloading Application...
+2024-08-11 17:15:53 INFO log.py:21: Yasb
+2024-08-11 17:15:53 DEBUG proactor_events.py:634: Using proactor: _IocpProactor
+2024-08-11 17:15:53 DEBUG win32.py:58: Looking up time zone info from registry
+2024-08-11 17:15:53 INFO weather.py:156: Fetched new weather data at 2024-08-11 17:15:53.915542
+2024-08-11 17:15:54 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-08-11 17:15:54 INFO github.py:292: Check for GitHub notifications at 2024-08-11 17:15:54.302804
+2024-08-11 17:15:55 INFO weather.py:156: Fetched new weather data at 2024-08-11 17:15:55.147647
+2024-08-11 17:15:55 INFO github.py:292: Check for GitHub notifications at 2024-08-11 17:15:55.163169
+2024-08-11 17:15:55 INFO bar_manager.py:74: Starting SystemEventListener...
+2024-08-11 17:15:55 INFO bar_manager.py:74: Starting KomorebiEventListener...
+2024-08-11 17:15:55 INFO event_listener.py:52: Created named pipe yasb-502e9502-57c2-11ef-a399-00155d82ce00
+2024-08-11 17:15:55 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-502e9502-57c2-11ef-a399-00155d82ce00
+2024-08-11 17:15:55 INFO watcher.py:39: Created file watcher for path C:\Users\beboy\.config\yasb
+2024-08-11 17:15:55 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-08-11 17:15:55 DEBUG _windows.py:192: Thread started
+2024-08-11 17:15:55 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-502e9502-57c2-11ef-a399-00155d82ce00
+2024-08-11 17:20:54 INFO github.py:292: Check for GitHub notifications at 2024-08-11 17:20:54.303801
+2024-08-11 17:20:55 INFO github.py:292: Check for GitHub notifications at 2024-08-11 17:20:55.158738
+2024-08-11 17:23:02 INFO tray.py:147: Reloading Application...
+2024-08-11 17:23:03 INFO log.py:21: Yasb
+2024-08-11 17:23:03 DEBUG proactor_events.py:634: Using proactor: _IocpProactor
+2024-08-11 17:23:03 DEBUG win32.py:58: Looking up time zone info from registry
+2024-08-11 17:23:03 INFO weather.py:156: Fetched new weather data at 2024-08-11 17:23:03.982886
+2024-08-11 17:23:04 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-08-11 17:23:04 INFO github.py:292: Check for GitHub notifications at 2024-08-11 17:23:04.544572
+2024-08-11 17:23:06 INFO weather.py:156: Fetched new weather data at 2024-08-11 17:23:06.036985
+2024-08-11 17:23:06 INFO github.py:292: Check for GitHub notifications at 2024-08-11 17:23:06.051983
+2024-08-11 17:23:06 INFO bar_manager.py:74: Starting SystemEventListener...
+2024-08-11 17:23:06 INFO bar_manager.py:74: Starting KomorebiEventListener...
+2024-08-11 17:23:06 INFO event_listener.py:52: Created named pipe yasb-51007aae-57c3-11ef-b139-00155d82ce00
+2024-08-11 17:23:06 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-51007aae-57c3-11ef-b139-00155d82ce00
+2024-08-11 17:23:06 INFO watcher.py:39: Created file watcher for path C:\Users\beboy\.config\yasb
+2024-08-11 17:23:06 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-08-11 17:23:06 DEBUG _windows.py:192: Thread started
+2024-08-11 17:23:06 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-51007aae-57c3-11ef-b139-00155d82ce00
+2024-08-11 17:26:35 DEBUG _windows.py:218: Stopping worker thread...
+2024-08-11 17:26:35 DEBUG _windows.py:201: Exiting thread
+2024-08-11 17:26:35 DEBUG _windows.py:75: Closing
+2024-08-11 17:26:35 ERROR event_service.py:30: Failed to emit signal <bound PYQT_SIGNAL k_signal_update of WorkspaceWidget object at 0x000002C35BE38690>. Removing link to KomorebiEvent.KomorebiUpdate.
+2024-08-11 17:26:35 ERROR event_service.py:30: Failed to emit signal <bound PYQT_SIGNAL k_signal_update of ActiveLayoutWidget object at 0x000002C35BE38C30>. Removing link to KomorebiEvent.KomorebiUpdate.
+2024-08-11 17:26:35 ERROR event_service.py:30: Failed to emit signal <bound PYQT_SIGNAL k_signal_update of ActiveLayoutWidget object at 0x000002C35F9ABD90>. Removing link to KomorebiEvent.KomorebiUpdate.
+2024-08-11 17:28:52 INFO log.py:21: Yasb
+2024-08-11 17:28:53 DEBUG proactor_events.py:634: Using proactor: _IocpProactor
+2024-08-11 17:28:53 DEBUG win32.py:58: Looking up time zone info from registry
+2024-08-11 17:28:56 INFO weather.py:156: Fetched new weather data at 2024-08-11 17:28:56.450897
+2024-08-11 17:28:56 ERROR weather.py:188: Error occurred: <urlopen error [Errno 11001] getaddrinfo failed>
+2024-08-11 17:28:56 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-08-11 17:28:57 INFO github.py:292: Check for GitHub notifications at 2024-08-11 17:28:57.779429
+2024-08-11 17:28:57 ERROR github.py:338: No internet connection. Unable to fetch notifications.
+2024-08-11 17:28:58 INFO weather.py:156: Fetched new weather data at 2024-08-11 17:28:58.768714
+2024-08-11 17:28:58 ERROR weather.py:188: Error occurred: <urlopen error [Errno 11001] getaddrinfo failed>
+2024-08-11 17:28:58 INFO github.py:292: Check for GitHub notifications at 2024-08-11 17:28:58.785712
+2024-08-11 17:28:58 ERROR github.py:338: No internet connection. Unable to fetch notifications.
+2024-08-11 17:28:58 INFO bar_manager.py:74: Starting KomorebiEventListener...
+2024-08-11 17:28:58 INFO bar_manager.py:74: Starting SystemEventListener...
+2024-08-11 17:28:58 INFO event_listener.py:52: Created named pipe yasb-233e005a-57c4-11ef-845d-00155d82ce00
+2024-08-11 17:28:58 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-233e005a-57c4-11ef-845d-00155d82ce00
+2024-08-11 17:28:58 INFO watcher.py:39: Created file watcher for path C:\Users\beboy\.config\yasb
+2024-08-11 17:28:58 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-08-11 17:28:58 DEBUG _windows.py:192: Thread started
+2024-08-11 17:28:59 WARNING event_listener.py:111: Komorebi failed to subscribe named pipe. Waiting for subscription...
+2024-08-11 17:29:49 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-233e005a-57c4-11ef-845d-00155d82ce00
+2024-08-11 17:30:34 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2024-08-11 17:30:34 INFO event_listener.py:93: Attempting to reconnect...
+2024-08-11 17:30:39 INFO event_listener.py:52: Created named pipe yasb-233e005a-57c4-11ef-845d-00155d82ce00
+2024-08-11 17:30:39 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-233e005a-57c4-11ef-845d-00155d82ce00
+2024-08-11 17:30:39 WARNING event_listener.py:111: Komorebi failed to subscribe named pipe. Waiting for subscription...
+2024-08-11 17:30:46 DEBUG _windows.py:218: Stopping worker thread...
+2024-08-11 17:30:46 DEBUG _windows.py:201: Exiting thread
+2024-08-11 17:30:46 DEBUG _windows.py:75: Closing
+2024-08-11 21:40:25 INFO log.py:21: Yasb
+2024-08-11 21:40:25 DEBUG proactor_events.py:634: Using proactor: _IocpProactor
+2024-08-11 21:40:26 DEBUG win32.py:58: Looking up time zone info from registry
+2024-08-11 21:40:29 INFO weather.py:156: Fetched new weather data at 2024-08-11 21:40:29.468566
+2024-08-11 21:40:29 ERROR weather.py:188: Error occurred: <urlopen error [Errno 11001] getaddrinfo failed>
+2024-08-11 21:40:29 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-08-11 21:40:30 INFO github.py:292: Check for GitHub notifications at 2024-08-11 21:40:30.824975
+2024-08-11 21:40:30 ERROR github.py:338: No internet connection. Unable to fetch notifications.
+2024-08-11 21:40:32 INFO weather.py:156: Fetched new weather data at 2024-08-11 21:40:32.491624
+2024-08-11 21:40:32 ERROR weather.py:188: Error occurred: <urlopen error [Errno 11001] getaddrinfo failed>
+2024-08-11 21:40:32 INFO github.py:292: Check for GitHub notifications at 2024-08-11 21:40:32.506742
+2024-08-11 21:40:32 ERROR github.py:338: No internet connection. Unable to fetch notifications.
+2024-08-11 21:40:32 INFO bar_manager.py:74: Starting KomorebiEventListener...
+2024-08-11 21:40:32 INFO bar_manager.py:74: Starting SystemEventListener...
+2024-08-11 21:40:32 INFO event_listener.py:52: Created named pipe yasb-47cd13f9-57e7-11ef-a4eb-a2d76830328d
+2024-08-11 21:40:32 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-47cd13f9-57e7-11ef-a4eb-a2d76830328d
+2024-08-11 21:40:32 INFO watcher.py:39: Created file watcher for path C:\Users\beboy\.config\yasb
+2024-08-11 21:40:32 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-08-11 21:40:32 DEBUG _windows.py:192: Thread started
+2024-08-11 21:40:32 WARNING event_listener.py:111: Komorebi failed to subscribe named pipe. Waiting for subscription...
+2024-08-11 21:43:03 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-47cd13f9-57e7-11ef-a4eb-a2d76830328d
+2024-08-11 21:45:30 INFO github.py:292: Check for GitHub notifications at 2024-08-11 21:45:30.819517
+2024-08-11 21:45:32 INFO github.py:292: Check for GitHub notifications at 2024-08-11 21:45:32.505187
+2024-08-11 21:45:33 INFO tray.py:147: Reloading Application...
+2024-08-11 21:45:34 INFO log.py:21: Yasb
+2024-08-11 21:45:34 DEBUG proactor_events.py:634: Using proactor: _IocpProactor
+2024-08-11 21:45:34 DEBUG win32.py:58: Looking up time zone info from registry
+2024-08-11 21:45:34 INFO weather.py:156: Fetched new weather data at 2024-08-11 21:45:34.807640
+2024-08-11 21:45:35 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-08-11 21:45:35 INFO github.py:292: Check for GitHub notifications at 2024-08-11 21:45:35.287439
+2024-08-11 21:45:36 INFO weather.py:156: Fetched new weather data at 2024-08-11 21:45:36.315221
+2024-08-11 21:45:36 INFO github.py:292: Check for GitHub notifications at 2024-08-11 21:45:36.331216
+2024-08-11 21:45:36 INFO bar_manager.py:74: Starting SystemEventListener...
+2024-08-11 21:45:36 INFO bar_manager.py:74: Starting KomorebiEventListener...
+2024-08-11 21:45:36 INFO event_listener.py:52: Created named pipe yasb-fce938f8-57e7-11ef-b068-a2d76830328d
+2024-08-11 21:45:36 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-fce938f8-57e7-11ef-b068-a2d76830328d
+2024-08-11 21:45:36 INFO watcher.py:39: Created file watcher for path C:\Users\beboy\.config\yasb
+2024-08-11 21:45:36 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-08-11 21:45:36 DEBUG _windows.py:192: Thread started
+2024-08-11 21:45:36 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-fce938f8-57e7-11ef-b068-a2d76830328d
+2024-08-11 21:50:35 INFO github.py:292: Check for GitHub notifications at 2024-08-11 21:50:35.280959
+2024-08-11 21:50:36 INFO github.py:292: Check for GitHub notifications at 2024-08-11 21:50:36.346398
+2024-08-11 21:50:46 INFO tray.py:147: Reloading Application...
+2024-08-11 21:50:47 INFO log.py:21: Yasb
+2024-08-11 21:50:47 DEBUG proactor_events.py:634: Using proactor: _IocpProactor
+2024-08-11 21:50:47 DEBUG win32.py:58: Looking up time zone info from registry
+2024-08-11 21:50:47 INFO weather.py:156: Fetched new weather data at 2024-08-11 21:50:47.758145
+2024-08-11 21:50:48 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-08-11 21:50:48 INFO github.py:292: Check for GitHub notifications at 2024-08-11 21:50:48.377526
+2024-08-11 21:50:49 INFO weather.py:156: Fetched new weather data at 2024-08-11 21:50:49.943505
+2024-08-11 21:50:49 INFO github.py:292: Check for GitHub notifications at 2024-08-11 21:50:49.960501
+2024-08-11 21:50:50 INFO bar_manager.py:74: Starting SystemEventListener...
+2024-08-11 21:50:50 INFO bar_manager.py:74: Starting KomorebiEventListener...
+2024-08-11 21:50:50 INFO event_listener.py:52: Created named pipe yasb-b7d9ec44-57e8-11ef-a52f-a2d76830328d
+2024-08-11 21:50:50 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-b7d9ec44-57e8-11ef-a52f-a2d76830328d
+2024-08-11 21:50:50 INFO watcher.py:39: Created file watcher for path C:\Users\beboy\.config\yasb
+2024-08-11 21:50:50 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-08-11 21:50:50 DEBUG _windows.py:192: Thread started
+2024-08-11 21:50:50 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-b7d9ec44-57e8-11ef-a52f-a2d76830328d
+2024-08-11 21:51:40 INFO tray.py:147: Reloading Application...
+2024-08-11 21:51:40 INFO log.py:21: Yasb
+2024-08-11 21:51:40 DEBUG proactor_events.py:634: Using proactor: _IocpProactor
+2024-08-11 21:51:40 DEBUG win32.py:58: Looking up time zone info from registry
+2024-08-11 21:51:41 INFO weather.py:156: Fetched new weather data at 2024-08-11 21:51:41.144100
+2024-08-11 21:51:41 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-08-11 21:51:41 INFO github.py:292: Check for GitHub notifications at 2024-08-11 21:51:41.536242
+2024-08-11 21:51:42 INFO weather.py:156: Fetched new weather data at 2024-08-11 21:51:42.397250
+2024-08-11 21:51:42 INFO github.py:292: Check for GitHub notifications at 2024-08-11 21:51:42.412757
+2024-08-11 21:51:42 INFO bar_manager.py:74: Starting KomorebiEventListener...
+2024-08-11 21:51:42 INFO bar_manager.py:74: Starting SystemEventListener...
+2024-08-11 21:51:42 INFO event_listener.py:52: Created named pipe yasb-d71d7fdc-57e8-11ef-90ca-a2d76830328d
+2024-08-11 21:51:42 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-d71d7fdc-57e8-11ef-90ca-a2d76830328d
+2024-08-11 21:51:42 INFO watcher.py:39: Created file watcher for path C:\Users\beboy\.config\yasb
+2024-08-11 21:51:42 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-08-11 21:51:42 DEBUG _windows.py:192: Thread started
+2024-08-11 21:51:42 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-d71d7fdc-57e8-11ef-90ca-a2d76830328d
+2024-08-11 21:56:41 INFO github.py:292: Check for GitHub notifications at 2024-08-11 21:56:41.540186
+2024-08-11 21:56:42 INFO github.py:292: Check for GitHub notifications at 2024-08-11 21:56:42.532571
+2024-08-11 22:01:41 INFO weather.py:156: Fetched new weather data at 2024-08-11 22:01:41.347003
+2024-08-11 22:01:41 INFO github.py:292: Check for GitHub notifications at 2024-08-11 22:01:41.529263
+2024-08-11 22:01:42 INFO weather.py:156: Fetched new weather data at 2024-08-11 22:01:42.409876
+2024-08-11 22:01:42 INFO github.py:292: Check for GitHub notifications at 2024-08-11 22:01:42.410874
+2024-08-11 22:06:41 INFO github.py:292: Check for GitHub notifications at 2024-08-11 22:06:41.537613
+2024-08-11 22:06:42 INFO github.py:292: Check for GitHub notifications at 2024-08-11 22:06:42.416341
+2024-08-11 22:11:41 INFO weather.py:156: Fetched new weather data at 2024-08-11 22:11:41.165175
+2024-08-11 22:11:41 INFO github.py:292: Check for GitHub notifications at 2024-08-11 22:11:41.694255
+2024-08-11 22:11:42 INFO weather.py:156: Fetched new weather data at 2024-08-11 22:11:42.425569
+2024-08-11 22:11:42 INFO github.py:292: Check for GitHub notifications at 2024-08-11 22:11:42.426571
+2024-08-11 22:16:23 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2024-08-11 22:16:23 INFO event_listener.py:93: Attempting to reconnect...
+2024-08-11 22:16:28 INFO event_listener.py:52: Created named pipe yasb-d71d7fdc-57e8-11ef-90ca-a2d76830328d
+2024-08-11 22:16:28 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-d71d7fdc-57e8-11ef-90ca-a2d76830328d
+2024-08-11 22:16:28 WARNING event_listener.py:111: Komorebi failed to subscribe named pipe. Waiting for subscription...
+2024-08-11 22:18:32 INFO log.py:21: Yasb
+2024-08-11 22:18:32 DEBUG proactor_events.py:634: Using proactor: _IocpProactor
+2024-08-11 22:18:32 DEBUG win32.py:58: Looking up time zone info from registry
+2024-08-11 22:18:35 INFO weather.py:156: Fetched new weather data at 2024-08-11 22:18:35.863823
+2024-08-11 22:18:36 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-08-11 22:18:37 INFO github.py:292: Check for GitHub notifications at 2024-08-11 22:18:37.207820
+2024-08-11 22:18:38 INFO weather.py:156: Fetched new weather data at 2024-08-11 22:18:38.183269
+2024-08-11 22:18:38 INFO github.py:292: Check for GitHub notifications at 2024-08-11 22:18:38.199269
+2024-08-11 22:18:38 INFO bar_manager.py:74: Starting KomorebiEventListener...
+2024-08-11 22:18:38 INFO bar_manager.py:74: Starting SystemEventListener...
+2024-08-11 22:18:38 INFO event_listener.py:52: Created named pipe yasb-9a2e07e3-57ec-11ef-abb2-00155d82ce00
+2024-08-11 22:18:38 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-9a2e07e3-57ec-11ef-abb2-00155d82ce00
+2024-08-11 22:18:38 INFO watcher.py:39: Created file watcher for path C:\Users\beboy\.config\yasb
+2024-08-11 22:18:38 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-08-11 22:18:38 DEBUG _windows.py:192: Thread started
+2024-08-11 22:18:38 WARNING event_listener.py:111: Komorebi failed to subscribe named pipe. Waiting for subscription...
+2024-08-11 22:20:09 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-9a2e07e3-57ec-11ef-abb2-00155d82ce00
+2024-08-11 22:23:19 INFO tray.py:147: Reloading Application...
+2024-08-11 22:23:21 INFO log.py:21: Yasb
+2024-08-11 22:23:21 DEBUG proactor_events.py:634: Using proactor: _IocpProactor
+2024-08-11 22:23:21 DEBUG win32.py:58: Looking up time zone info from registry
+2024-08-11 22:23:24 INFO weather.py:156: Fetched new weather data at 2024-08-11 22:23:24.150642
+2024-08-11 22:23:24 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-08-11 22:23:25 INFO github.py:292: Check for GitHub notifications at 2024-08-11 22:23:25.242985
+2024-08-11 22:23:26 INFO weather.py:156: Fetched new weather data at 2024-08-11 22:23:26.231017
+2024-08-11 22:23:26 INFO github.py:292: Check for GitHub notifications at 2024-08-11 22:23:26.248013
+2024-08-11 22:23:26 INFO bar_manager.py:74: Starting SystemEventListener...
+2024-08-11 22:23:26 INFO bar_manager.py:74: Starting KomorebiEventListener...
+2024-08-11 22:23:26 INFO event_listener.py:52: Created named pipe yasb-45e20dd7-57ed-11ef-b90f-00155d82ce00
+2024-08-11 22:23:26 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-45e20dd7-57ed-11ef-b90f-00155d82ce00
+2024-08-11 22:23:26 INFO watcher.py:39: Created file watcher for path C:\Users\beboy\.config\yasb
+2024-08-11 22:23:26 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-08-11 22:23:26 DEBUG _windows.py:192: Thread started
+2024-08-11 22:23:26 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-45e20dd7-57ed-11ef-b90f-00155d82ce00
