@@ -70,3 +70,4 @@ Applications, Resources and inspirations for this project:
 - [tldr](https://tldr.sh/)
 - [yazi](https://github.com/sxyazi/yazi)
 - [starship](https://starship.rs/)
+- [keyviz](https://github.com/mulaRahul/keyviz)
