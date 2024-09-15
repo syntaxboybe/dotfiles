@@ -19,16 +19,16 @@ return {
       require("telescope").load_extension("file_browser")
     end,
   },
-  {
-    "nvim-telescope/telescope-fzf-native.nvim",
-    build = "make",
-    conf = vim.fn.executable("make") == 1,
-    event = "VeryLazy",
-    dependencies = "nvim-telescope/telescope.nvim",
-    config = function(_, opts)
-      require("telescope").load_extension("fzf")
-    end,
-  },
+  -- {
+  --   "nvim-telescope/telescope-fzf-native.nvim",
+  --   build = "make",
+  --   conf = vim.fn.executable("make") == 1,
+  --   event = "VeryLazy",
+  --   dependencies = "nvim-telescope/telescope.nvim",
+  --   config = function(_, opts)
+  --     require("telescope").load_extension("fzf")
+  --   end,
+  -- },
   {
     "nvim-telescope/telescope.nvim",
     opts = {
