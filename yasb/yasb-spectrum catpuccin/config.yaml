@@ -26,14 +26,14 @@ bars:
       width: "100%"
       height: 28
     padding:
-      top: 3
+      top: 4
       left: 0
       bottom: 0
       right: 0
     widgets:
       left: ["win_button", "komorebi_workspaces", "traffic"]
       center: ["active_window"]
-      right: ["taskbar", "volume", "clock", "power_menu"]
+      right: ["taskbar", "volume", "wifi", "clock", "wallpapers", "power_menu"]
 widgets:
   language:
     type: "yasb.language.LanguageWidget"
@@ -95,6 +95,33 @@ widgets:
         snowyIcyNight: "\udb81\udd99"
         blizzard: "\udb81\udd99"
         default: "\udb81\udd99"
+  wifi:
+    type: "yasb.wifi.WifiWidget"
+    options:
+      label: "<span>{wifi_icon}</span>"
+      label_alt: "{wifi_name} {wifi_strength}%"
+      update_interval: 5000
+      callbacks:
+        on_left: "exec cmd.exe /c start ms-settings:network"
+        on_middle: "do_nothing"
+        on_right: "toggle_label"
+    wifi_icons: [
+        "\udb82\udd2e", # Icon for 0% strength
+        "\udb82\udd1f", # Icon for 1-20% strength
+        "\udb82\udd22", # Icon for 21-40% strength
+        "\udb82\udd25", # Icon for 41-80% strength
+        "\udb82\udd28", # Icon for 81-100% strength
+      ]
+  wallpapers:
+    type: "yasb.wallpapers.WallpapersWidget"
+    options:
+      label: "<span>\udb83\ude09</span>"
+      image_path: "D:\\PROJECTS\\dotfiles\\wallpaper" # Example path to folder with images
+      change_automatically: false # Automatically change wallpaper
+      update_interval: 60 # If change_automatically is true, update interval in seconds
+      run_after: # List of functions to run after wallpaper is updated
+        - "wal -s -t -e -q -n -i {image}" # Example command to run after wallpaper is updated
+        - "cmd.exe /c start /min pwsh ./yasb.ps1" # Example command to run after wallpaper is updated
   volume:
     type: "yasb.volume.VolumeWidget"
     options:

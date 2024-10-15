@@ -75,7 +75,7 @@
 }
 
 .clock-widget {
-  background-color: #c2a8e3;
+  background-color: #9ecfd7;
   padding: 0;
 }
 .clock-widget .icon {
@@ -84,13 +84,13 @@
 }
 .clock-widget .label {
   background-color: #221f2e;
-  color: #c2a8e3;
+  color: #9ecfd7;
   padding: 0 6px;
   margin: 1px;
   border-radius: 6px;
 }
 .volume-widget {
-  background-color: #f38ba8;
+  background-color: #c6a7e8;
   padding: 0;
 }
 .volume-widget .icon {
@@ -98,6 +98,36 @@
   padding: 0 6px;
 }
 .volume-widget .label {
+  background-color: #221f2e;
+  color: #c6a7e8;
+  padding: 0 8px;
+  margin: 1px;
+  border-radius: 6px;
+}
+.wallpapers-widget {
+  background-color: #c2a8e3;
+  padding: 0;
+}
+.wallpapers-widget .icon {
+  color: #142123;
+  padding: 0 6px;
+}
+.wallpapers-widget .label {
+  background-color: #221f2e;
+  color: #f38ba8;
+  padding: 0 8px;
+  margin: 1px;
+  border-radius: 6px;
+}
+.wifi-widget {
+  background-color: #f38ba8;
+  padding: 0;
+}
+.wifi-widget .icon {
+  color: #142123;
+  padding: 0 6px;
+}
+.wifi-widget .label {
   background-color: #221f2e;
   color: #f38ba8;
   padding: 0 8px;
@@ -121,7 +151,7 @@
 }
 
 .power-menu-widget {
-  background-color: #c4a7e7;
+  background-color: #f5c276;
   padding: 0;
 }
 
