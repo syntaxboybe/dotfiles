@@ -67,3 +67,4 @@ List of applications used in my config:
 - [starship](https://starship.rs/)
 - [keyviz](https://github.com/mulaRahul/keyviz)
 - [musikcube](https://github.com/clangen/musikcube)
+- [buttery](https://github.com/LuisThiamNye/ButteryTaskbar2)
