@@ -31,9 +31,10 @@ bars:
       bottom: 0
       right: 0
     widgets:
-      left: ["win_button", "komorebi_workspaces", "traffic"]
-      center: ["active_window"]
-      right: ["taskbar", "volume", "wifi", "clock", "wallpapers", "power_menu"]
+      left: ["win_button", "komorebi_workspaces", "active_window"]
+      center: ["clock"]
+      right:
+        ["taskbar", "traffic", "volume", "wifi", "wallpapers", "power_menu"]
 widgets:
   language:
     type: "yasb.language.LanguageWidget"
