@@ -114,10 +114,23 @@
 }
 .wallpapers-widget .label {
   background-color: #221f2e;
-  color: #f38ba8;
+  color: #c2a8e3;
   padding: 0 8px;
   margin: 1px;
   border-radius: 6px;
+}
+.wallpapers-gallery-buttons:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.wallpapers-gallery-image {
+  border: 4px solid transparent;
+  border-radius: 10px;
+}
+.wallpapers-gallery-image:hover {
+  border: 4px solid rgb(66, 68, 83);
+}
+.wallpapers-gallery-image.focused {
+  border: 4px solid #89b4fa;
 }
 .wifi-widget {
   background-color: #f38ba8;
