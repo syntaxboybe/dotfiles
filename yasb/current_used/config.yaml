@@ -31,12 +31,13 @@ bars:
       bottom: 0
       right: 6
     widgets:
-      left: ["komorebi_workspaces", "active_window"]
+      left: ["home", "active_window"]
       center: ["clock", "apps"]
       right: [
-          "update",
-          # "ai",
+          # "update",
           "taskbar",
+          "ai",
+          "excalidraw",
           "wallpapers",
           "github",
           "whkd",
@@ -45,6 +46,18 @@ bars:
           "power_menu",
         ]
 widgets:
+  home:
+    type: "yasb.home.HomeWidget"
+    options:
+      label: "<span>\uf313</span>"
+      # menu_list:
+      #   - { title: "User Home", path: "~" }
+      #   - { title: "Download", path: "~\\Downloads" }
+      #   - { title: "Documents", path: "~\\Documents" }
+      #   - { title: "Pictures", path: "~\\Pictures" }
+      system_menu: true
+      power_menu: false
+      blur: false
   update:
     type: "yasb.update_check.UpdateCheckWidget"
     options:
@@ -193,7 +206,7 @@ widgets:
       app_list:
         # - { icon: "\uf0a2", launch: "notification_center" }
         - { icon: "\udb80\udda4", launch: "launcher" }
-        - { icon: "\ueb03", launch: "cmd /c launcherTaskmgr" }
+        # - { icon: "\ueb03", launch: "cmd /c launcherTaskmgr" }
         # - { icon: "\uf489", launch: "wt" }
         # - { icon: "\udb84\udec7", launch: "C:\\Program Files\\Microsoft Office\\root\\Office16\\OUTLOOK.EXE" }
         - {
@@ -216,8 +229,7 @@ widgets:
     options:
       label: "<span>\ueba1</span>"
       label_alt: "Notifications {data}"
-      token: env
-      max_notification: 30
+      token: ghp_xxxxxxxxxxx # GitHub Personal access tokens (classic) https://github.com/settings/tokens      
       only_unread: false
       max_field_size: 54
       menu_width: 400
@@ -241,11 +253,20 @@ widgets:
   ai:
     type: "yasb.custom.CustomWidget"
     options:
-      label: "<span>\udb81\ude74</span>"
-      label_alt: "\udb81\ude74"
+      label: "<span>\uf420</span>"
+      label_alt: "\uf420"
       class_name: "ai-widget"
       callbacks:
-        on_left: "exec cmd.exe /c start \"C:\\Program Files\\Mozilla Firefox\\firefox.exe\" https://platform.openai.com/playground/chat?models=gpt-4o"
+        on_left: "exec cmd.exe /c start \"C:\\Program Files\\Mozilla Firefox\\firefox.exe\"https://chatgpt.com/"
+
+  excalidraw:
+    type: "yasb.custom.CustomWidget"
+    options:
+      label: "<span>\uf044</span>"
+      label_alt: "\uf044"
+      class_name: "excalidraw-widget"
+      callbacks:
+        on_left: "exec cmd.exe /c start \"C:\\Program Files\\Mozilla Firefox\\firefox.exe\"https://excalidraw.com/"
   whkd:
     type: "yasb.whkd.WhkdWidget"
     options:
