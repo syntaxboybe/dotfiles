@@ -68,3 +68,4 @@ List of applications used in my config:
 - [keyviz](https://github.com/mulaRahul/keyviz)
 - [musikcube](https://github.com/clangen/musikcube)
 - [buttery](https://github.com/LuisThiamNye/ButteryTaskbar2)
+- [tacky-border](https://github.com/lukeyou05/tacky-borders)
