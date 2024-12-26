@@ -6,7 +6,7 @@
   "default_workspace_padding": 3,
   "default_container_padding": 3,
   "focus_follows_mouse": "Komorebi",
-  "mouse_follows_focus": false,
+  "mouse_follows_focus": true,
   "transparency": true,
   "transparency_alpha": 240,
   "animation": {
