@@ -26,6 +26,7 @@
   --mantle: rgba(24, 24, 37, 0.5);
   --crust: rgba(17, 17, 27, 0.5);
 }
+
 * {
   font-size: 12px;
   color: var(--subtext0);
@@ -34,18 +35,22 @@
   margin: 0;
   padding: 0;
 }
+
 .yasb-bar {
   padding: 0;
   margin: 0;
   background-color: var(--crust);
 }
+
 .widget {
   padding: 0 12px;
   margin: 0;
 }
+
 .icon {
   font-size: 16px;
 }
+
 .widget .label {
   padding: 0px 2px;
 }
@@ -53,13 +58,16 @@
 .apps-widget {
   padding: 0 4px 0 2px;
 }
+
 .komorebi-active-layout {
   padding: 0 4px 0 0;
 }
+
 .komorebi-active-layout .label {
   font-weight: 600;
   padding: 2px 0 0 0;
 }
+
 .apps-widget .widget-container,
 .komorebi-workspaces .widget-container,
 .komorebi-active-layout .widget-container {
@@ -68,22 +76,26 @@
   border-radius: 12px;
   border: 0px solid var(--surface1);
 }
+
 .komorebi-workspaces .widget-container {
   border-top-left-radius: 6px;
   border-bottom-left-radius: 6px;
   margin-left: 4px;
 }
+
 .komorebi-workspaces {
   border-top-right-radius: 14px;
   border-bottom-right-radius: 14px;
   padding: 0 4px 0 0;
 }
+
 .komorebi-workspaces .offline-status {
   color: var(--surface2);
   font-size: 12px;
   padding: 0 0 0 4px;
   font-weight: 600;
 }
+
 .komorebi-workspaces .ws-btn {
   border: none;
   background-color: transparent;
@@ -93,9 +105,11 @@
   height: 28px;
   width: 18px;
 }
+
 .komorebi-workspaces .ws-btn:hover {
   color: var(--subtext1);
 }
+
 .komorebi-workspaces .ws-btn.populated {
   color: transparent;
   width: 10px;
@@ -105,6 +119,7 @@
   margin: 0 4px;
   font-size: 1px;
 }
+
 .komorebi-workspaces .ws-btn.active {
   color: transparent;
   background-color: var(--blue);
@@ -113,27 +128,33 @@
   margin: 0 4px;
   border-radius: 5px;
 }
+
 .apps-widget .label {
   font-size: 14px;
   padding: 0 2px;
   color: var(--subtext0);
 }
+
 .apps-widget .label:hover {
   color: var(--text);
 }
+
 .uptime {
   font-size: 14px;
   margin-bottom: 10px;
   color: var(--surface2);
   font-weight: 600;
 }
+
 .power-menu-widget .label {
   color: #f38ba8;
   font-size: 13px;
 }
+
 .power-menu-popup {
   background-color: transparent;
 }
+
 .power-menu-popup .button {
   padding: 0;
   width: 180px;
@@ -147,6 +168,7 @@
   border-bottom: 8px solid rgba(58, 59, 83, 0);
   margin: 0px;
 }
+
 .power-menu-popup .button.hover {
   background-color: var(--surface0);
   border-left: 4px solid var(--surface0);
@@ -154,91 +176,175 @@
   border-top: 8px solid var(--surface0);
   border-bottom: 8px solid var(--surface0);
 }
+
 .power-menu-popup .button .label {
   margin-bottom: 8px;
   font-size: 16px;
   font-weight: 500;
   color: var(--surface2);
 }
+
 .power-menu-popup .button .icon {
   font-size: 64px;
   padding-top: 32px;
   color: var(--surface2);
 }
+
 .power-menu-popup .button.cancel .icon {
   padding: 0;
   margin: 0;
 }
+
 .power-menu-popup .button.cancel .label {
   color: var(--red);
   margin: 0;
 }
+
 .power-menu-popup .button.cancel {
   height: 32px;
   border-radius: 4px;
 }
+
 .volume-widget .icon {
   color: var(--blue);
   margin: 1px 2px 0 0;
 }
-.github-widget .icon {
+
+.github-menu {
+  background-color: rgba(17, 17, 27, 0.2);
+  max-height: 500px;
+  min-height: 500px;
+  min-width: 420px;
+}
+
+.github-menu .header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 8px;
+  color: white;
+  background-color: rgba(17, 17, 27, 0.75);
+}
+
+.github-menu .footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 12px;
+  padding: 4px 8px 6px 8px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #9399b2;
+  background-color: rgba(17, 17, 27, 0.75);
+}
+
+.github-menu .contents {
+  background-color: rgba(17, 17, 27, 0.2);
+}
+
+.github-menu .contents .item {
+  min-height: 40px;
+  padding: 6px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.075);
+}
+
+.github-menu .contents .item:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
+}
+
+.github-menu .contents .item .title,
+.github-menu .contents .item .description {
+  color: #9399b2;
+  font-family: Segoe UI;
+}
+
+.github-menu .contents .item .title {
   font-size: 14px;
-  color: var(--text);
+  font-weight: 600;
 }
-.github-widget .icon.new-notification {
-  color: var(--red);
+
+.github-menu .contents .item .description {
+  font-size: 12px;
+  font-weight: 500
 }
-.weather-widget,
-.github-widget,
+
+.github-menu .contents .item.new .title,
+.github-menu .contents .item.new .description {
+  color: #ffffff
+}
+
+.github-menu .contents .item .icon {
+  font-size: 16px;
+  padding-right: 0;
+  padding-left: 8px;
+  padding-right: 4px;
+  color: #9399b2;
+}
+
+.github-menu .contents .item.new .icon {
+  color: #3fb950;
+}
+
 .volume-widget {
   padding: 0 6px;
 }
+
 .weather-widget .icon {
   font-size: 18px;
   margin: 0 2px 1px 0;
   color: var(--yellow);
 }
+
 .ai-widget {
   padding: 0 4px 0 4px;
   margin: 0;
 }
+
 .ai-widget .widget-container {
   margin: 4px 0 4px 0;
   border-radius: 12px;
 }
+
 .ai-widget .icon {
   color: var(--sky);
   padding: 0 5px;
   font-size: 16px;
   margin: 0;
 }
+
 .ai-widget .icon:hover {
   color: #fff;
 }
+
 .taskbar-widget {
   padding: 0;
   margin: 0;
   border: none;
 }
+
 .taskbar-widget .app-icon {
   padding: 0 6px;
   border: none;
   margin: 0;
 }
+
 .whkd-widget {
   padding: 0 6px 0 6px;
 }
+
 .whkd-widget .icon {
   font-size: 14px;
 }
+
 .wallpapers-widget {
   padding: 0 6px 0 6px;
 }
+
 .wallpapers-gallery-window {
   background-color: rgba(85, 42, 240, 0.01);
   border: 0;
   margin: 0;
 }
+
 .wallpapers-gallery-buttons {
   background-color: rgba(255, 255, 255, 0);
   color: var(--text);
@@ -249,16 +355,20 @@
   margin: 0 8px 8px 8px;
   width: 600px;
 }
+
 .wallpapers-gallery-buttons:hover {
   background-color: rgba(255, 255, 255, 0.1);
 }
+
 .wallpapers-gallery-image {
   border: 4px solid transparent;
   border-radius: 10px;
 }
+
 .wallpapers-gallery-image:hover {
   border: 4px solid var(--sapphire);
 }
+
 .wallpapers-gallery-image.focused {
   border: 4px solid var(--sapphire);
 }
@@ -266,9 +376,11 @@
 .update-check-widget {
   padding: 0 0px 0 0px;
 }
+
 .update-check-widget .icon {
   font-size: 14px;
 }
+
 .update-check-widget .widget-container.winget,
 .update-check-widget .widget-container.windows {
   background: var(--maroon);
@@ -276,17 +388,20 @@
   border-radius: 9px;
   border: 2px solid var(--red);
 }
+
 .update-check-widget .widget-container.windows {
   background: var(--lavender);
   margin: 7px 2px 7px 2px;
   border-radius: 9px;
   border: 2px solid var(--blue);
 }
+
 .update-check-widget .widget-container.winget .icon,
 .update-check-widget .widget-container.windows .icon {
   color: var(--base);
   margin: 0 1px 0 6px;
 }
+
 .update-check-widget .widget-container.winget .label,
 .update-check-widget .widget-container.windows .label {
   margin: 0 6px 0 1px;
@@ -294,35 +409,44 @@
   font-weight: 900;
   font-size: 14px;
 }
+
 .excalidraw-widget {
   padding: 0 4px 0 4px;
   margin: 0;
 }
+
 .excalidraw-widget .widget-container {
   margin: 4px 0 4px 0;
   border-radius: 12px;
 }
+
 .excalidraw-widget .icon {
   color: var(--sky);
   padding: 0 5px;
   font-size: 16px;
   margin: 0;
 }
+
 .excalidraw-widget .icon:hover {
   color: #fff;
 }
+
 .home-widget {
   padding: 0 4px 0 12px;
 }
+
 .home-widget .icon {
   color: var(--lavender);
 }
+
 .home-widget .icon:hover {
   color: var(--text);
 }
+
 .home-menu {
   background-color: var(--crust);
 }
+
 .home-menu .menu-item {
   padding: 8px 48px 9px 16px;
   font-size: 12px;
@@ -330,11 +454,57 @@
   color: var(--text);
   font-weight: 600;
 }
+
 .home-menu .menu-item:hover {
   background-color: rgba(128, 130, 158, 0.15);
   color: #fff;
 }
+
 .home-menu:separator {
   height: 1px;
   background-color: rgba(128, 130, 158, 0.3);
+}
+
+.disk-widget {
+  padding: 0 6px 0 6px;
+}
+
+.disk-group {
+  background-color: rgba(17, 17, 27, 0.4);
+}
+
+.disk-group-row {
+  min-width: 220px;
+  max-width: 220px;
+  max-height: 40px;
+  margin: 0;
+  padding: 0;
+  border-radius: 6px;
+  border: 1px solid rgba(128, 128, 128, 0);
+}
+
+.disk-group-row:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.disk-group-label-bar {
+  max-height: 8px;
+  border: 0px solid rgba(128, 128, 128, 0);
+  background-color: rgba(137, 180, 250, 0.1);
+  border-radius: 4px;
+}
+
+.disk-group-label-bar::chunk {
+  background-color: rgba(61, 135, 255, 0.3);
+  border-radius: 4px;
+}
+
+.disk-group-label {
+  font-size: 10px;
+}
+
+.disk-group-label-size {
+  font-size: 10px;
+  color: #666879;
 }

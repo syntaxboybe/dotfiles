@@ -31,19 +31,19 @@ bars:
       bottom: 0
       right: 6
     widgets:
-      left: ["home", "active_window"]
+      left: ["home", "komorebi_workspaces","active_window"]
       center: ["clock", "apps"]
       right: [
-          # "update",
           "taskbar",
           "ai",
           "excalidraw",
           "wallpapers",
           "github",
+          "disk",
           "whkd",
           "volume",
           "wifi",
-          "power_menu",
+          "power_menu"
         ]
 widgets:
   home:
@@ -204,14 +204,14 @@ widgets:
         right: 8
       label: "{data}"
       app_list:
-        # - { icon: "\uf0a2", launch: "notification_center" }
-        - { icon: "\udb80\udda4", launch: "launcher" }
+        - { icon: "\ue5fe", launch: "explorer" }
+        # - { icon: "\udb80\udda4", launch: "launcher" }
         # - { icon: "\ueb03", launch: "cmd /c launcherTaskmgr" }
         # - { icon: "\uf489", launch: "wt" }
         # - { icon: "\udb84\udec7", launch: "C:\\Program Files\\Microsoft Office\\root\\Office16\\OUTLOOK.EXE" }
         - {
-            icon: "\uf1ff",
-            launch: "C:\\Users\\beboy\\AppData\\Local\\Discord\\Update.exe --processStart Discord.exe",
+            # icon: "\uf1ff",
+            # launch: "C:\\Users\\beboy\\AppData\\Local\\Discord\\Update.exe --processStart Discord.exe",
           }
         - {
             icon: "\ue217",
@@ -228,15 +228,21 @@ widgets:
     type: "yasb.github.GithubWidget"
     options:
       label: "<span>\ueba1</span>"
-      label_alt: "Notifications {data}"
-      token: ghp_xxxxxxxxxxx # GitHub Personal access tokens (classic) https://github.com/settings/tokens      
-      max_notification: 30
-      only_unread: false
-      max_field_size: 54
-      menu_width: 400
-      menu_height: 400
-      menu_offset: 240
-      update_interval: 60
+      label_alt: "Notifications {data}" # {data} return number of unread notification
+      token: ghp_xxXXxxxXXXXxxx # GitHub Personal access tokens (classic) https://github.com/settings/tokens
+      max_notification: 20 # Max number of notification displaying in menu max: 50
+      only_unread: false # Show only unread or all notifications; 
+      max_field_size: 54 # Max characters in title before truncation.
+      update_interval: 300 # Check for new notification in seconds
+      menu:
+        blur: True # Enable blur effect for the menu
+        round_corners: True # Enable round corners for the menu (this option is not supported on Windows 10)
+        round_corners_type: "normal" # Set the type of round corners for the menu (normal, small) (this option is not supported on Windows 10)
+        border_color: "System" # Set the border color for the menu (this option is not supported on Windows 10)
+        alignment: "right"
+        direction: "down"
+        distance: 6
+
   taskbar:
     type: "yasb.taskbar.TaskbarWidget"
     options:
@@ -309,3 +315,21 @@ widgets:
         "\udb82\udd25", # Icon for 41-80% strength
         "\udb82\udd28", # Icon for 81-100% strength
       ]
+  disk:
+    type: "yasb.disk.DiskWidget"
+    options:
+        label: "<span>\uf473</span>"
+        label_alt: "<span>\uf473</span>"
+        group_label:
+          enabled: true
+          volume_labels: ["C", "D", "E"]
+          show_label_name: true 
+          blur: True
+          round_corners: True
+          round_corners_type: "normal"
+          border_color: "System"
+          alignment: "right"
+          direction: "down"
+          distance: 6
+        callbacks:
+          on_left: "toggle_group"
