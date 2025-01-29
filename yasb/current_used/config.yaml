@@ -31,7 +31,7 @@ bars:
       bottom: 0
       right: 6
     widgets:
-      left: ["home", "komorebi_workspaces","active_window"]
+      left: ["home","active_window"]
       center: ["clock", "apps"]
       right: [
           "taskbar",
@@ -87,7 +87,21 @@ widgets:
     options:
       label: "\uf017 {%I:%M %p}"
       label_alt: "\udb83\ude17 {%A %d %B %Y, %I:%M %p}"
+      locale: ""
+      update_interval: 1000
       timezones: []
+      calendar: 
+        blur: True
+        round_corners: True
+        round_corners_type: 'normal'
+        border_color: 'System'
+        alignment: 'center'
+        direction: 'down'
+        distance: 6
+      callbacks:
+        on_left: "toggle_calendar"
+        on_middle: "next_timezone"
+        on_right: "toggle_label"
   komorebi_workspaces:
     type: "komorebi.workspaces.WorkspaceWidget"
     options:
@@ -229,7 +243,7 @@ widgets:
     options:
       label: "<span>\ueba1</span>"
       label_alt: "Notifications {data}" # {data} return number of unread notification
-      token: ghp_xxXXxxxXXXXxxx # GitHub Personal access tokens (classic) https://github.com/settings/tokens
+      token: ghp_xxxXXXxxXxxxxxxXXXXxxx # GitHub Personal access tokens (classic) https://github.com/settings/tokens
       max_notification: 20 # Max number of notification displaying in menu max: 50
       only_unread: false # Show only unread or all notifications; 
       max_field_size: 54 # Max characters in title before truncation.
@@ -318,18 +332,22 @@ widgets:
   disk:
     type: "yasb.disk.DiskWidget"
     options:
-        label: "<span>\uf473</span>"
-        label_alt: "<span>\uf473</span>"
-        group_label:
-          enabled: true
-          volume_labels: ["C", "D", "E"]
-          show_label_name: true 
-          blur: True
-          round_corners: True
-          round_corners_type: "normal"
-          border_color: "System"
-          alignment: "right"
-          direction: "down"
-          distance: 6
-        callbacks:
-          on_left: "toggle_group"
+      label: "<span>\uf473</span>"
+      label_alt: "<span>\uf473</span>"
+      volume_label: "C"
+      update_interval: 60
+      group_label:
+        volume_labels: ["C", "D", "E"]
+        show_label_name: true
+        blur: True
+        round_corners: True
+        round_corners_type: "small"
+        border_color: "System"
+        alignment: "right"
+        direction: "down"
+        distance: 6
+      callbacks:
+        on_left: "toggle_group"
+        on_middle: "toggle_label"
+        on_right: "exec explorer C:\\" # Open disk C in file explorer
+
