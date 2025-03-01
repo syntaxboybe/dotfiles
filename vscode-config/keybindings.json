@@ -63,6 +63,11 @@
       "command": "workbench.action.splitEditorDown",
       "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
     },
+    {
+      "key": "space+t",
+      "command": "workbench.action.terminal.toggleTerminal",
+      "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
+    },
 
     // Coding
     {
