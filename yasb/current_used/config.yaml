@@ -32,7 +32,7 @@ bars:
       right: 6
     widgets:
       left: ["home","active_window"]
-      center: ["clock", "apps"]
+      center: ["clock"]
       right: [
           "taskbar",
           "ai",
@@ -90,7 +90,7 @@ widgets:
       locale: ""
       update_interval: 1000
       timezones: []
-      calendar: 
+      calendar:
         blur: True
         round_corners: True
         round_corners_type: 'normal'
@@ -162,7 +162,7 @@ widgets:
     options:
       label: "<span>{icon}</span> {temp_c}"
       label_alt: "{location}: Min {min_temp_c}, Max {max_temp_c}, Humidity {humidity}"
-      api_key: "24b6c2cda6d84066b0304531241908"
+      api_key: ""
       update_interval: 600
       hide_decimal: true
       location: "USA Los Angeles 90006"
@@ -243,9 +243,9 @@ widgets:
     options:
       label: "<span>\ueba1</span>"
       label_alt: "Notifications {data}" # {data} return number of unread notification
-      token: ghp_xxxXXXxxXxxxxxxXXXXxxx # GitHub Personal access tokens (classic) https://github.com/settings/tokens
+      token: *************************** # GitHub Personal access tokens (classic) https://github.com/settings/tokens
       max_notification: 20 # Max number of notification displaying in menu max: 50
-      only_unread: false # Show only unread or all notifications; 
+      only_unread: false # Show only unread or all notifications;
       max_field_size: 54 # Max characters in title before truncation.
       update_interval: 300 # Check for new notification in seconds
       menu:
@@ -350,4 +350,3 @@ widgets:
         on_left: "toggle_group"
         on_middle: "toggle_label"
         on_right: "exec explorer C:\\" # Open disk C in file explorer
-

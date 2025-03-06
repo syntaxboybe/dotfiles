@@ -29,7 +29,7 @@
 
 * {
   font-size: 12px;
-  color: var(--subtext0);
+  color: var(--blue);
   font-weight: 600;
   font-family: "JetBrainsMono NFP";
   margin: 0;
@@ -101,20 +101,20 @@
   background-color: transparent;
   margin: 0;
   font-size: 12px;
-  color: var(--overlay1);
+  color: var(--blue);
   height: 28px;
   width: 18px;
 }
 
 .komorebi-workspaces .ws-btn:hover {
-  color: var(--subtext1);
+  color: var(--blue);
 }
 
 .komorebi-workspaces .ws-btn.populated {
   color: transparent;
   width: 10px;
   height: 10px;
-  background-color: var(--lavender);
+  background-color: var(--blue);
   border-radius: 5px;
   margin: 0 4px;
   font-size: 1px;
@@ -132,22 +132,22 @@
 .apps-widget .label {
   font-size: 14px;
   padding: 0 2px;
-  color: var(--subtext0);
+  color: var(--blue);
 }
 
 .apps-widget .label:hover {
-  color: var(--text);
+  color: var(--blue);
 }
 
 .uptime {
   font-size: 14px;
   margin-bottom: 10px;
-  color: var(--surface2);
+  color: var(--blue);
   font-weight: 600;
 }
 
 .power-menu-widget .label {
-  color: #f38ba8;
+  color: var(--blue);
   font-size: 13px;
 }
 
@@ -181,13 +181,13 @@
   margin-bottom: 8px;
   font-size: 16px;
   font-weight: 500;
-  color: var(--surface2);
+  color: var(--blue);
 }
 
 .power-menu-popup .button .icon {
   font-size: 64px;
   padding-top: 32px;
-  color: var(--surface2);
+  color: var(--blue);
 }
 
 .power-menu-popup .button.cancel .icon {
@@ -196,7 +196,7 @@
 }
 
 .power-menu-popup .button.cancel .label {
-  color: var(--red);
+  color: var(--blue);
   margin: 0;
 }
 
@@ -254,7 +254,7 @@
 .github-menu .contents .item .title,
 .github-menu .contents .item .description {
   color: #9399b2;
-  font-family: Segoe UI;
+  font-family: "JetBrainsMono NFP";
 }
 
 .github-menu .contents .item .title {
@@ -269,7 +269,7 @@
 
 .github-menu .contents .item.new .title,
 .github-menu .contents .item.new .description {
-  color: #ffffff
+  color: var(--blue);
 }
 
 .github-menu .contents .item .icon {
@@ -277,7 +277,7 @@
   padding-right: 0;
   padding-left: 8px;
   padding-right: 4px;
-  color: #9399b2;
+  color: var(--blue);
 }
 
 .github-menu .contents .item.new .icon {
@@ -305,14 +305,14 @@
 }
 
 .ai-widget .icon {
-  color: var(--sky);
+  color: var(--blue);
   padding: 0 5px;
   font-size: 16px;
   margin: 0;
 }
 
 .ai-widget .icon:hover {
-  color: #fff;
+  color: var(--lavender);
 }
 
 .taskbar-widget {
@@ -333,6 +333,7 @@
 
 .whkd-widget .icon {
   font-size: 14px;
+  color: var(--blue);
 }
 
 .wallpapers-widget {
@@ -347,7 +348,7 @@
 
 .wallpapers-gallery-buttons {
   background-color: rgba(255, 255, 255, 0);
-  color: var(--text);
+  color: var(--blue);
   border: none;
   font-size: 14px;
   padding: 8px 0;
@@ -357,7 +358,7 @@
 }
 
 .wallpapers-gallery-buttons:hover {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: var(--blue)
 }
 
 .wallpapers-gallery-image {
@@ -366,11 +367,11 @@
 }
 
 .wallpapers-gallery-image:hover {
-  border: 4px solid var(--sapphire);
+  border: 4px solid var(--blue);
 }
 
 .wallpapers-gallery-image.focused {
-  border: 4px solid var(--sapphire);
+  border: 4px solid var(--lavender);
 }
 
 .update-check-widget {
@@ -421,14 +422,14 @@
 }
 
 .excalidraw-widget .icon {
-  color: var(--sky);
+  color: var(--blue);
   padding: 0 5px;
   font-size: 16px;
   margin: 0;
 }
 
 .excalidraw-widget .icon:hover {
-  color: #fff;
+  color: var(--lavender);
 }
 
 .home-widget {
@@ -436,28 +437,28 @@
 }
 
 .home-widget .icon {
-  color: var(--lavender);
+  color: var(--blue);
 }
 
 .home-widget .icon:hover {
-  color: var(--text);
+  color: var(--lavender);
 }
 
 .home-menu {
-  background-color: var(--crust);
+  background-color: var(--surface0);
 }
 
 .home-menu .menu-item {
   padding: 8px 48px 9px 16px;
   font-size: 12px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: var(--text);
+  color: var(--blue);
   font-weight: 600;
 }
 
 .home-menu .menu-item:hover {
   background-color: rgba(128, 130, 158, 0.15);
-  color: #fff;
+  color: var(--lavender);
 }
 
 .home-menu:separator {
@@ -492,7 +493,7 @@
 }
 
 .disk-group-label-bar::chunk {
-  background-color: rgba(137, 180, 250, 0.3);
+  background-color: var(--blue);
   border-radius: 4px
 }
 
@@ -502,7 +503,7 @@
 
 .disk-group-label-size {
   font-size: 10px;
-  color: #585b70
+  color: var(--blue);
 }
 
 .calendar {
@@ -513,7 +514,7 @@
 .calendar .calendar-table::item {
   background-color: rgba(17, 17, 27, 0);
   color: rgba(162, 177, 196, 0.85);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "JetBrainsMono NFP";
   margin: 0;
   padding: 0;
   border: none;
@@ -521,7 +522,7 @@
 }
 
 .calendar .calendar-table::item:selected {
-  color: rgb(255, 255, 255);
+  color: var(--blue);
 }
 
 .calendar .day-label {
@@ -531,7 +532,7 @@
 .calendar .day-label,
 .calendar .month-label,
 .calendar .date-label {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "JetBrainsMono NFP";
   font-size: 16px;
   color: #fff;
   font-weight: 700;
@@ -546,6 +547,6 @@
 .calendar .date-label {
   font-size: 88px;
   font-weight: 900;
-  color: rgb(255, 255, 255);
+  color: var(--blue);
   margin-top: -20px;
 }
