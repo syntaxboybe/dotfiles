@@ -71,10 +71,10 @@
 .apps-widget .widget-container,
 .komorebi-workspaces .widget-container,
 .komorebi-active-layout .widget-container {
-  background-color: var(--crust);
+  background-color: #0000
   margin: 4px 0 4px 0;
   border-radius: 12px;
-  border: 0px solid var(--surface1);
+  border: 0px solid var(--surface0);
 }
 
 .komorebi-workspaces .widget-container {
@@ -549,4 +549,50 @@
   font-weight: 900;
   color: var(--blue);
   margin-top: -20px;
+}
+
+.libre-monitor-widget {
+  padding: 0 4px 0 4px;
+  margin: 0;
+}
+.libre-monitor-widget .widget-container {
+  margin: 4px 0 4px 0;
+  border-radius: 12px;
+}
+.libre-monitor-widget .widget-container .icon {
+  color: var(--blue);
+  padding: 0 5px;
+  font-size: 16px;
+  margin: 0;
+}
+
+.cpu-widget {
+  padding: 0 4px 0 4px;
+  margin: 0;
+}
+.cpu-widget .widget-container {
+  margin: 4px 0 4px 0;
+  border-radius: 12px;
+}
+
+.cpu-widget .widget-container .icon {
+  color: var(--blue);
+  padding: 0 5px;
+  font-size: 16px;
+  margin: 0;
+}
+
+.memory-widget {
+  padding: 0 4px 0 4px;
+  margin: 0;
+}
+.memory-widget .widget-container .icon {
+  color: var(--blue);
+  padding: 0 5px;
+  font-size: 16px;
+  margin: 0;
+}
+.memory-widget .widget-container {
+  margin: 4px 0 4px 0;
+  border-radius: 12px;
 }

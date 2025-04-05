@@ -31,10 +31,10 @@ bars:
       bottom: 0
       right: 6
     widgets:
-      left: ["home","active_window"]
+      left: ["home", "komorebi_active_layout", "libre_cpu_temp", "cpu", "memory"]
       center: ["clock"]
       right: [
-          "taskbar",
+          # "taskbar",
           "ai",
           "excalidraw",
           "wallpapers",
@@ -162,7 +162,7 @@ widgets:
     options:
       label: "<span>{icon}</span> {temp_c}"
       label_alt: "{location}: Min {min_temp_c}, Max {max_temp_c}, Humidity {humidity}"
-      api_key: ""
+      api_key: "24b6c2cda6d84066b0304531241908"
       update_interval: 600
       hide_decimal: true
       location: "USA Los Angeles 90006"
@@ -243,7 +243,7 @@ widgets:
     options:
       label: "<span>\ueba1</span>"
       label_alt: "Notifications {data}" # {data} return number of unread notification
-      token: *************************** # GitHub Personal access tokens (classic) https://github.com/settings/tokens
+      token: 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 # GitHub Personal access tokens (classic) https://github.com/settings/tokens
       max_notification: 20 # Max number of notification displaying in menu max: 50
       only_unread: false # Show only unread or all notifications;
       max_field_size: 54 # Max characters in title before truncation.
@@ -296,7 +296,7 @@ widgets:
     type: "yasb.wallpapers.WallpapersWidget"
     options:
       label: "<span>\udb83\ude09</span>"
-      image_path: "D:\\PROJECTS\\dotfiles\\wallpaper"
+      image_path: "E:\\PROJECTS\\dotfiles\\wallpaper"
       change_automatically: false
       update_interval: 60
       gallery:
@@ -350,3 +350,48 @@ widgets:
         on_left: "toggle_group"
         on_middle: "toggle_label"
         on_right: "exec explorer C:\\" # Open disk C in file explorer
+  libre_cpu_temp:
+    type: "yasb.libre_monitor.LibreHardwareMonitorWidget"
+    options:
+      label: "<span> </span> {info[value]}{info[unit]}"
+      label_alt: "<span> </span>{info[histogram]} {info[value]} ({info[min]}/{info[max]}) {info[unit]}"
+      sensor_id: "/amdcpu/0/temperature/2"
+      update_interval: 2000
+      precision: 0
+      histogram_num_columns: 10
+      history_size: 1000
+      callbacks:
+        on_left: "toggle_label"
+  cpu:
+    type: "yasb.cpu.CpuWidget"
+    options:
+      label: "<span>\uf4bc</span> {info[percent][total]}%"
+      label_alt: "<span>\uf437</span> {info[histograms][cpu_percent]}"
+      update_interval: 2000
+      histogram_icons:
+      - '\u2581' # 0%
+      - '\u2581' # 10%
+      - '\u2582' # 20%
+      - '\u2583' # 30%
+      - '\u2584' # 40%
+      - '\u2585' # 50%
+      - '\u2586' # 60%
+      - '\u2587' # 70%
+      - '\u2588' # 80%+
+      histogram_num_columns: 8
+    callbacks:
+      on_left: "exec cmd /c Taskmgr"
+  memory:
+    type: "yasb.memory.MemoryWidget"
+    options:
+      label: "<span>\uf4bc</span> {virtual_mem_free}/{virtual_mem_total}"
+      label_alt: "<span>\uf4bc</span> VIRT: {virtual_mem_percent}% SWAP: {swap_mem_percent}%"
+      update_interval: 5000
+      callbacks:
+        on_left: "toggle_label"
+        on_middle: "do_nothing"
+        on_right: "do_nothing"
+      memory_thresholds:
+        low: 25
+        medium: 50
+        high: 90
